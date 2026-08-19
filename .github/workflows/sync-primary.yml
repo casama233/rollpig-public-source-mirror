@@ -1,0 +1,61 @@
+name: Sync RollPig primary source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sync-primary.yml
+      - scripts/sync_primary.py
+      - scripts/validate_snapshot.py
+      - vercel.json
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rollpig-public-source-mirror
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch and validate primary snapshot
+        run: python scripts/sync_primary.py --target public/v1
+
+      - name: Validate checked-in deployment tree offline
+        run: python scripts/validate_snapshot.py public/v1
+
+      - name: Check patch integrity
+        run: git diff --check
+
+      - name: Commit changed snapshot
+        shell: bash
+        run: |
+          if git diff --quiet -- public/v1; then
+            echo "Primary resource_version is already mirrored."
+            exit 0
+          fi
+          version="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          print(json.loads(Path('public/v1/manifest.json').read_text(encoding='utf-8'))['resource_version'])
+          PY
+          )"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/v1
+          git commit -m "sync: mirror RollPig resources ${version}"
+          git push
