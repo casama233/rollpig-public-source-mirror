@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "authoritative": false,
+  "source": "primary",
+  "primary_manifest_url": "https://curryudon.top/astrbot-rollpig/v1/manifest.json",
+  "resource_version": "2026.08.17.1",
+  "source_manifest_sha256": "446141e6b19630b1ea65e8085f6a89c6327e000465006cda20403c27b533878a",
+  "package_size": 19495920,
+  "member_count": 207,
+  "mirrored_at": "2026-08-19T00:50:46+00:00"
+}

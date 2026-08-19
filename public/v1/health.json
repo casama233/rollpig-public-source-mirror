@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "client": "astrbot_plugin_rollpig_plus",
+  "protocol_version": 1,
+  "resource_version": "2026.08.17.1",
+  "generated_at": "2026-08-17T12:19:15+00:00",
+  "pig_count": 204,
+  "package_size": 19495920,
+  "ex_variant_pig_count": 204,
+  "ex_variant_image_count": 0,
+  "roast_copy_dish_count": 32,
+  "roast_copy_line_count": 79
+}
