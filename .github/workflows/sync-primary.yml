@@ -1,3 +1,4 @@
+# Mirrors only fully validated Resource Protocol v1 snapshots.
 name: Sync RollPig primary source
 
 on:
