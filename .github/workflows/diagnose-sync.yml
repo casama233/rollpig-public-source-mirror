@@ -1,0 +1,39 @@
+name: Diagnose initial mirror sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/diagnose-sync.yml
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run diagnostic and write report
+        shell: bash
+        run: |
+          set +e
+          python scripts/sync_primary.py --target public/v1 > /tmp/sync.log 2>&1
+          code=$?
+          set -e
+          {
+            echo "exit_code=${code}"
+            echo "utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "---"
+            cat /tmp/sync.log
+          } > sync-diagnostic.txt
+          git rm .github/workflows/diagnose-sync.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: record initial mirror sync diagnostic"
+          git push
