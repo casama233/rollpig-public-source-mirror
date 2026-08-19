@@ -1,0 +1,72 @@
+name: Bootstrap RollPig mirror snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/bootstrap-mirror.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rollpig-public-source-mirror
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch primary snapshot
+        shell: bash
+        run: |
+          set +e
+          python scripts/sync_primary.py --target public/v1 > /tmp/bootstrap.log 2>&1
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ]; then
+            {
+              echo "exit_code=${code}"
+              echo "utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              echo "---"
+              cat /tmp/bootstrap.log
+            } > sync-bootstrap-diagnostic.txt
+            exit "$code"
+          fi
+          cat /tmp/bootstrap.log
+      - name: Validate snapshot offline
+        if: success()
+        run: python scripts/validate_snapshot.py public/v1
+      - name: Commit bootstrap snapshot and remove workflow
+        if: success()
+        shell: bash
+        run: |
+          version="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          print(json.loads(Path('public/v1/manifest.json').read_text(encoding='utf-8'))['resource_version'])
+          PY
+          )"
+          git rm .github/workflows/bootstrap-mirror.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/v1
+          git commit -m "sync: bootstrap RollPig resources ${version}"
+          git push
+      - name: Preserve failure diagnostic and remove workflow
+        if: failure()
+        shell: bash
+        run: |
+          git rm .github/workflows/bootstrap-mirror.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sync-bootstrap-diagnostic.txt
+          git commit -m "chore: record mirror bootstrap diagnostic"
+          git push
