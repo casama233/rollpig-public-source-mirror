@@ -23,7 +23,7 @@ MAX_MANIFEST_BYTES = 1024 * 1024
 MAX_PACKAGE_BYTES = 128 * 1024 * 1024
 MAX_MEMBER_BYTES = 50 * 1024 * 1024
 MAX_MEMBERS = 1608
-USER_AGENT = "RollPig-Public-Mirror/1 (+https://github.com/casama233/rollpig-public-source-mirror)"
+USER_AGENT = "AstrBot-RollPig/3.11.5 (+https://github.com/casama233/rollpig-public-source-mirror; mirror)"
 
 
 def _sha256(data: bytes) -> str:
@@ -37,6 +37,8 @@ def _fetch(url: str, *, max_bytes: int, timeout: float, retries: int = 3) -> byt
             url,
             headers={
                 "User-Agent": USER_AGENT,
+                "X-RollPig-Client": CLIENT_ID,
+                "X-RollPig-Protocol": str(SCHEMA_VERSION),
                 "Accept": "application/json, application/octet-stream;q=0.9, */*;q=0.1",
                 "Cache-Control": "no-cache",
                 "Pragma": "no-cache",
