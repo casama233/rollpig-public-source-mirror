@@ -10,7 +10,7 @@ on:
       - scripts/validate_snapshot.py
       - vercel.json
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
