@@ -1,62 +1,34 @@
-# Mirrors only fully validated Resource Protocol v1 snapshots.
-name: Sync RollPig primary source
+# Fail closed while the provenance / redistribution-rights audit is open.
+name: Public mirror provenance guard
 
 on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/sync-primary.yml
-      - scripts/sync_primary.py
-      - scripts/validate_snapshot.py
-      - vercel.json
-  schedule:
-    - cron: "*/5 * * * *"
+      - "public/**"
+      - ".github/workflows/sync-primary.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "public/**"
+      - ".github/workflows/sync-primary.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: rollpig-public-source-mirror
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  sync:
+  fail-closed:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Fetch and validate primary snapshot
-        run: python scripts/sync_primary.py --target public/v1
-
-      - name: Validate checked-in deployment tree offline
-        run: python scripts/validate_snapshot.py public/v1
-
-      - name: Check patch integrity
-        run: git diff --check
-
-      - name: Commit changed snapshot
+      - name: Assert stale public snapshot is not publishable
         shell: bash
         run: |
-          if git diff --quiet -- public/v1; then
-            echo "Primary resource_version is already mirrored."
-            exit 0
+          test -f public/NOTICE.txt
+          if [ -e public/v1 ]; then
+            echo "::error::public/v1 is disabled during the provenance audit. Restore it only through a separately reviewed provenance-safe base-only publication change."
+            exit 1
           fi
-          version="$(python - <<'PY'
-          import json
-          from pathlib import Path
-          print(json.loads(Path('public/v1/manifest.json').read_text(encoding='utf-8'))['resource_version'])
-          PY
-          )"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A public/v1
-          git commit -m "sync: mirror RollPig resources ${version}"
-          git push
+          echo "Mirror is fail-closed: no public/v1 snapshot is present."
