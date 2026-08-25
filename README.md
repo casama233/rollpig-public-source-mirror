@@ -1,38 +1,38 @@
 # RollPig Public Source Mirror
 
-Read-only disaster-recovery mirror for the AstrBot RollPig public resource source.
+Read-only disaster-recovery mirror tooling for the AstrBot RollPig public resource source.
 
-## Source priority
+## Current status: fail closed
 
-RollPig clients should use sources in this order:
+Public mirroring is **temporarily disabled** while the provenance and redistribution-rights audit remains open. The stale pre-audit `public/v1` snapshot has been removed from the current repository tree. Git history is intentionally preserved as audit evidence, but it must not be treated as an active publication source.
 
-1. **Primary** — `https://curryudon.top/astrbot-rollpig/v1/manifest.json`
-2. **Vercel mirror** — deployment of this repository
-3. **GitHub raw fallback** — this repository's `public/v1` tree
-4. Last-known-good local cache / bundled bootstrap resources
+Accordingly:
 
-The primary source remains authoritative and is expected to update first.
+- `public/v1/manifest.json` is intentionally absent;
+- the Vercel deployment connected to this repository must not serve a RollPig v1 snapshot;
+- the scheduled primary-source mirroring job is disabled;
+- clients must fall back to their last-known-good local cache or bundled resources when the authoritative primary source is unavailable.
 
-## Vercel deployment
+## Restoration requirements
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcasama233%2Frollpig-public-source-mirror&repository-name=rollpig-public-source-mirror&project-name=rollpig-public-source-mirror)
+A disaster-recovery mirror may only be restored through a separately reviewed publication change after all of the following are true:
 
-Import this public repository as a Vercel project. Keep the repository root as the project root and let `vercel.json` provide the build command and `public` output directory. Git Integration then redeploys the validated static snapshot on every mirror commit; no runtime proxy to the primary source is required.
+1. the candidate is the same audited **provenance-safe base-only** publication intended for the authoritative public source;
+2. `NOTICE.md`, `PROVENANCE.json` and the applicable `LICENSES/` material travel with the published snapshot;
+3. unaudited extension material is excluded, including authored EX/EX image payloads, `pig_ex_variants.json`, `roast_copy.json` and historical compatibility-floor payloads unless their redistribution rights are independently established;
+4. the mirror validator checks provenance/publication-profile requirements in addition to Resource Protocol integrity, size and SHA-256 checks;
+5. the RollPig client independently rejects a mirror that does not satisfy the provenance-safe mirror contract.
 
-After the first production deployment, use the actual stable production domain's `/v1/manifest.json` URL in the RollPig plugin configuration. Do not assume the generated `*.vercel.app` hostname until Vercel has created the project and confirmed its production alias.
+Restoring `public/v1` therefore requires changing the fail-closed GitHub Actions guard in the same reviewed change. A normal sync failure must never leave an older publication silently available as a fallback.
 
-## How this mirror updates
+## Authoritative source
 
-`.github/workflows/sync-primary.yml` checks the primary manifest on a schedule and on manual dispatch. When `resource_version` changes, `scripts/sync_primary.py`:
+The authoritative resource source remains:
 
-- downloads the complete Resource Protocol v1 snapshot into a temporary directory;
-- validates the client/schema contract, safe relative paths, declared sizes and SHA-256 hashes;
-- refuses oversized packages or unsafe paths;
-- replaces `public/v1` only after the whole snapshot validates;
-- writes `public/v1/mirror.json` with non-authoritative mirror metadata.
+`https://curryudon.top/astrbot-rollpig/v1/manifest.json`
 
-The workflow commits the validated snapshot back to this repository. A Vercel project connected to this repository can therefore deploy automatically on every mirror update. If the primary becomes unavailable, this repository and the last successful Vercel deployment keep serving the last validated snapshot.
+This repository is non-authoritative. It must not be used to expand, re-license or independently republish third-party resources.
 
-## Security boundary
+## Security and rights boundary
 
-This repository contains **published public resources only**. Review databases, admin tokens, uploaded pending submissions, production configuration and other private service state must never be mirrored here.
+Review databases, admin tokens, pending submissions, production configuration and other private service state must never be mirrored here. Likewise, source-code licensing must not be assumed to grant redistribution rights for artwork, prose, catalog data or other non-code assets.
