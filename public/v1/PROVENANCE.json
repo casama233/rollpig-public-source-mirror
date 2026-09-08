@@ -1,0 +1,4850 @@
+{
+  "schema_version": 1,
+  "generated_for": "provenance-clean-20260821-historical7-004232",
+  "policy": "Only machine-verified upstream-exact resources, Felis resources proven exact in the pre-resource-license MIT snapshot, and seven explicitly recorded historical MIT record/image variants are included. Later restricted variants, community resources without stored redistribution permission, and unknown sources remain withheld.",
+  "resource_count": 164,
+  "items": [
+    {
+      "id": "abstract-pig",
+      "name": "抽象猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "d41404dba4533b2d202afab03bd5353203ac2ae3fc2fa4746fc9b0173ec46ee3",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "ai-pig",
+      "name": "猪工智能",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "c43ddd52b5ebf380f370998078e13359e452e6e9b6075435b7ac3300f6a3eab2",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "alien-pig",
+      "name": "外星猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "d7a4759d120302d37d9a58da9ca420248762cce7edfae1756bd28f6758fc0030",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "android-pig",
+      "name": "安卓猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5b0636aedb00047f186c30c8a100d1e967475bcaa94ad9bf945f1e5d9e0af937",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "eb0a556944a8a6feff4c05020c285d80353700809aa19365603d050ebb161903",
+        "bundled_analysis_sha256": "d9d95343aaae45cef7cd5572d11f50ee71e9cdf7e9fbd3016b4c4a4bbc53b8a0",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "antibacterial-pig",
+      "name": "猪抑菌",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "1dcdb042793304f0c63da7e96c9cfc08b9f650923fb75f54d5606c712f37cdf6",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "apple-of-eye-pig",
+      "name": "掌上明猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "9a878766dd3f0ef1dfc12528e10035a11bb7762eb542996d00e441afce051594",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "98de7ff6d8d57f484ddef070e5a5571c0514cd892b55ef2f6aa96d53a1e4b11a",
+        "bundled_analysis_sha256": "8bd83ef07a87614db32de91ff52f6769f8f1714b29d2af4f2cd1af9ac4fc992b",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "apple-pig",
+      "name": "苹果猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "1d287c49182e0fae5964b9db9d382d36202aa8dcd92ae1628ed2880b74cb6435",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "76126abbae82fe7520de510ad6ee4e29cb4058c88fe4cb8b5691dc77cdc18b85",
+        "bundled_analysis_sha256": "ed4da3dc48b8fa234286f4ab650bb2d096385e7ab9f351415becf84d03c87366",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "arknights-pig",
+      "name": "明日方猪",
+      "source": "Bearlele/nonebot-plugin-rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "328461e62607235e44b6d747e00aeae41825263e46b0469870ee341b3aecfd21",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "astro-pig",
+      "name": "猪航员",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "3748a83e064dd1804e631cc846708a2a587336b75761d668ef620f2b2ca55688",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "bacon",
+      "name": "培根",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "ec6f3afd6d7b0b5e2a0910ca086b91112e327e2748ac8333da0c4e6addc69e7f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "bc2084e7b511f13acd0bdece4ca085b276c1a1e2882327117624339c447c22a2",
+        "bundled_analysis_sha256": "fdd7402cb6b1991fe72adfc643dfd98755cacb90cbfbac5e521b13187c708ed6",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "balloon-pig",
+      "name": "猪气球",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "e318437183dd080066ba5a585258ec9dd8705cd74e432e7d7dab50c907ccb1b5",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "bamboo-pig",
+      "name": "猪笋",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3784c70d05cb3faf0b7009deb8756d2fcf23a508067514a27cd9ee35bd9ac306",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "bandage-pig",
+      "name": "绷不猪了",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "15fa785a3655b2f87e32f3a9df38a6af5c5230b460d8a1e3649ef72068438987",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "big-lazy-pig",
+      "name": "大懒猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5c0d8b9f87ef74831fb94707bf40ab43e9e6234f5fbaac2286569c2a7b81479c",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "2fd5a6e1e048b59c36454db7a78995653bd46fe469672727905c5b6b7a8b8e2e",
+        "bundled_analysis_sha256": "5c568b144e39f8a83f57d24e30696eee5d50791296eaab0880556233deedb502",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "big-stomach-pig",
+      "name": "大胃袋",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "69f471300cf7bff3a94506b51416a46ceeb1c1533e3d24a019f548336031f00d",
+      "later_canonical_image_sha256": "58056c86545e504b53a32303e81f72f28a0c740afde5af0e2924b993c9dad67a",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "black-pig",
+      "name": "小黑猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "7f8913827fc0eccc6bf91934d5caf6c8428ef57f750a7c93e8c79ac7d5e09624",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "black-white-pig",
+      "name": "黑白猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "149eab5a5d9c5e0778d3543dc5f510123b8fd86cf8134d5d53f3f29938f2d432",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "bone-soup-pig",
+      "name": "猪骨汤",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "ad6f70679bc15cf373b1959cb28384614872e6bb5cf0439340b1884a474c6bb5",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "buddha-pig",
+      "name": "佛猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "9bb4e808e96c2015925c2d622a5caf8d216b7a26bfdc4514768b2501ac4557c7",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "4323791cf1b534baac8a138918ebc0dbc82952e42507eb4795263a452dd97a2b",
+        "bundled_analysis_sha256": "65fda62f180a724ffb359d653d616b5a3e40fe74ba7c7769e0cf9951b8dba47d",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "burger-pig",
+      "name": "猪堡包",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "c3b5964b974c8d4ef6939106b6fa2fa903a163113ccc2b61ec4ce1e835db75be",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "01643cb72ba54f19b8c3d1d4c0f262c4609481c5ca1afa638627e1628168b7e7",
+        "bundled_analysis_sha256": "0def639cb7afddead7edc3994855e9e5d4c7d18de34b2de2a28f905332086431",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "canned-pig",
+      "name": "猪罐头",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "a6dd56cfcaaac0d6b72ba6e6253edde8b6f715d8caf6b81306c2a7df8174c45d",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "carrot-ghost-pig",
+      "name": "萝卜幽灵猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "1d608ccfceea20e245e6fdb17dae95ad6cd6b321f625ca89b20c341c55672c80",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "chained_crown_pig",
+      "name": "被束缚的猪王",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3f3b21c672b6b071458fd1053ef993a6f99cb1694273419e8af56bfb47431b1a",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "26b5a3065e7243d0d8a1a92fd5408f473c367d15f65637f9bfa1b09680e2c321",
+        "bundled_analysis_sha256": "02745daa763ba6f3a0a6635a58c79453febabb1adcf96cd5adaf777f6d035430",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "chainsaw-pig",
+      "name": "电锯猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "7fe41fe6ef50b76a317a9e0746edfdcaf010486667e03d2f136208e3e1bbce80",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "char-siu",
+      "name": "叉烧",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "0a8fbe6b04f6d29edd4cee3b6118944028dab01e67b1b9425be09b14fdd0e70d",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "9b5a72cdc5cd1b97df453c3c90f367c6855e67d6c1cfa3f360bf017958f0e5e7",
+        "bundled_analysis_sha256": "123ed830f695613a16437768aa8cdb131044ae51d21c8f8f644c3339ed8afcea",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "charge-pig",
+      "name": "猪突猛进",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "abf45d4f5765c648efc4fa0bec6bc686c4a86ad5c7da5a41d135f2864db576e9",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "chat-spam-pig",
+      "name": "猪水群",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "475603088f1fdacf9a1054f738e7c93751a46ad16affa630b1ae533ff4307787",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "chef-pig",
+      "name": "猪厨",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "8de3b27ccf8814873701471e39ccb857d269e3febc5af4978c04239cf5af5944",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "chocolate-pig",
+      "name": "猪古力",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3d6a66c16abefbfbdf10c6e9aae3ffb730c873327b77f06cc40382e448c83d37",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "9aa0bb9f71be0e73272ce52eae7444e4f0dd24833fa515d192f4b7b31fee4314",
+        "bundled_analysis_sha256": "dc2063260fe4073155cb320356093d176bfbc76012e75770b800c49a8f04fe82",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "christmas-pig",
+      "name": "猪诞树",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "86995356bc623c3a6584b3509e21aa1f23f30d71fac762ff72b2ffd0020a2016",
+      "later_canonical_image_sha256": "609c66c2d87293c89bcd31bebda8ef94645311d96f555135e3a4fa9a6bf53b80",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "civil-eng-pig",
+      "name": "土木猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "de393d8e97aed7e027f96b06b882b0ce761be1c1dafbeae2cd814aed3f6b6267",
+      "later_canonical_image_sha256": "672c9e42b3d6be31ac31197619c28da6beefbf063f5fea1691c9d7865310b572",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "clean-pig",
+      "name": "猪自清",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "49cbec4cc40cf76c44a53059e2999a0415565450d63d9731d9c652d255fd3dc9",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "cloud-pig",
+      "name": "云猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "0032c91bc627fa310ec710dd5a7b0af0ba68e8dbc9b0554638c4ef04d6845048",
+      "later_canonical_image_sha256": "a293a156fc2afb7ac2b7e3d4406127a39d3e17684554428e5f4b1df5f263dc05",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "cocktail-pig",
+      "name": "柠檬猪尾酒",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "3966bbf4e1231d25b7e466831e9513bb12a2209d902b9032b6d95c632c9da1f8",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "coder-pig",
+      "name": "猪序员",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3569f38e84fe438b02b4c473885e4204e57ab5fe4d45964d69cd36ec8e26becd",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "computer-pig",
+      "name": "智能计算猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "eb46c0e0da1b384f68b048f5ea72fe853ec8e0ecdb10f521e611ba9e5c5dda6f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "crystal-pig",
+      "name": "水晶猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "32f0067db264ed8a671b560039b1e5756d7a2e4eda263e329b81bdd5bd679ef2",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "curator-pig",
+      "name": "猪理人",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "be851a56bd0622b47387f167fca38aee45e6773730d0f6fd378701bf7d2c5ac4",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "cyberpunk-pig",
+      "name": "赛博朋克猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3e11d6e958d9d1aff869163e1d8777e1d8df441f9e2ea6ec991a3bc5a4f4fb0f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "3bff1237d4f8038c09176fd46c2116828a04a0174b64ba6fd719a62bb74d8e4f",
+        "bundled_analysis_sha256": "e5470cae62eadbf8919eceeb87193f94be13afc99b700f5a2e3c9dad54213c69",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "delivery-pig",
+      "name": "猪递",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "a0696fb246b718d10ef77a9ec2ac55a65471ee024daab71412237ef6faa35be2",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "demon-pig",
+      "name": "恶魔猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "7b050c93b2f0ced65a7f9d55ecad02d69b22625af895eeb22db52a3a8529a3e4",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "dirty-pig",
+      "name": "脏猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "2d2f4ccc4632780a4c4686c31b108a851c9465c505b99607d3c99ca7fea86b97",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "2dd5e025a7d70f00c881cebbce2a02030013313ee0c66fbbbe5df3857b1d0010",
+        "bundled_analysis_sha256": "ce7ee6913851855f4f7d705695b366cbf29d06f2d31b7f152f7acf39dbedcd05",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "doctor-pig",
+      "name": "猪博士",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "5eea5a873f867967e527f663528f93d1d05c4b9b1093f8893832534225234c67",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "doll-pig",
+      "name": "玩偶猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "650dcfdad7a6c3394b5bbf210318508e73e22d9a9fbbde1b480d2c6d0fc203fd",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "doro-pig",
+      "name": "doro猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "ee331672f62eb28167495c751025d70242fc651151aa201a87ea0a1a4ea0f87f",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "drunk-pig",
+      "name": "酒鬼猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "a60e6788668bb8e32118856513057fb18acdcb92f39ae6911aeaef7493553e35",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "duke-pig",
+      "name": "猪龙鱼公爵",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "5cf9d1038396b73efead41b24d75e2613d5e2daf1c05d90cf5735a54d4b8d9cb",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "dumb-pig",
+      "name": "笨猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "d8d4a6b1c8c546dffa9c10cf28b60371b9344c3e96691ae8f26bcf1eecd0b236",
+      "later_canonical_image_sha256": "cd5c37efc43eba1ebab8d5c2492469465ba75244af86b39feb773c84c3e7ce64",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "dumpling-pig",
+      "name": "猪饺",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "230de618454310d534421b0d513a36c2518527c5b392595e91dbd6aa0297a083",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "early-class-pig",
+      "name": "早八猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "48b78235559db32995d9bb8bd4dc25df9256a0f76f3cb3e63894827a0e66b5f6",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "3ba87100400f9116f114688da9000f0804a77294312a69bb35bb3f238e4140a2",
+        "bundled_analysis_sha256": "958215dda9b80c58560696d90803350859dfcb92b30b33e7c8bf0ec85ce0d9e9",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "earthy-pig",
+      "name": "土猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "3a812b1fef074d88516eba60d7b4b958dac9a1f1643d0404d075a2b39346c405",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "eaten",
+      "name": "吃掉了",
+      "source": "Bearlele/nonebot-plugin-rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "14dc68f05235b0fba9353bb70d0ef0fd5c545028c818153d608cf71b41e2ea86",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "error-404-pig",
+      "name": "404猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "48dc3592c550a892dfb9d92a7e8f19e1c49d2382870f210ad6896dff441c4efc",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "everest-pig",
+      "name": "猪穆朗玛峰",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "e80d9f005b51d07368270c8eaccd352794052e36be888d329fd3e4fc63bfec09",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "2f78f6950863c25cd979f785f4d3a29ff7ead21f18fde9b53b50bae4aa099f64",
+        "bundled_analysis_sha256": "484f5579ace57c96e66175134083469f7039daf9032f39fc101508ef0e502606",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "explosive-pig",
+      "name": "爆破小猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5d1337dc9c536d0d41ab0d9680d6cc73b2103d567139b4a4f220d7bdb66b79d1",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "fat-pig",
+      "name": "肥猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "7aca4deaea38501d894941f88a01bee1e3d226109aaae6fc79def83922a251cb",
+      "later_canonical_image_sha256": "66702c66880f913bbec17d26a5217ec10fb17de6dc5985220f5919fe7f557127",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "fine-chaff-boar",
+      "name": "山猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "16a90d62661fe2ea29c6d24bf6855211cab74cc6feefaf459368693fbcc8a899",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "frozen-pig",
+      "name": "冷冻猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "0b968f95609395d6e59ea10439db580f62ac95dd0dfc10b33a8c138cd00f528a",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "097b8211faa7e9c237562b4b311211687131250a2a9ba9721f96c11f12bb8a4d",
+        "bundled_analysis_sha256": "36d872193d5d759635b6300911b5430bded54507bcfd357c7d1fc2a28f88e6b1",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "goblin-pig",
+      "name": "猪布林",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "89fd59becef43c8c432968615c00af842d620641124e0fdc2c25ef6b35df4177",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "4db1e2af625544dff68636aa0889c46520994f80bcc67cba0de94cb0ae4a3417",
+        "bundled_analysis_sha256": "6e99ef13733b64bc9108f3b5280effae81d1ca9177eda2542b96fe9b8efe1573",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "gym-pig",
+      "name": "猪健身",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "16c35e1e0d11b1f0474f63a90e9ff461a4a8164c19107c8ba72e1e7a07355fb6",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "halloween-pig",
+      "name": "万圣猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "e4b6003fa3af937cf880f548f524b393cd61b65ee2d70e417d6ef55b1a54f888",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "heaven-pig",
+      "name": "天堂猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "d38d3e6d1696a6a051368b35649b422b89dec7adf9dfc258234807f7dcd440b6",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "homebody-pig",
+      "name": "猪宅",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "31cf8c77b37987b0467bd1c5054e453ecdccdb608e08e0800451d4110af99576",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "hotdog-pig",
+      "name": "热猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "03f141e6f9c9e6cde730f38e97e9aab1858beecf2342aea79e260c3a893d4fc5",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "human",
+      "name": "人类",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "cb631983409c7f98b14470f1e1f17a508adae812361d2e536bf29199b5942d32",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "invisible_pig",
+      "name": "隐形猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "1a3cc0edf1993bb612fa752ab384ea621e438b762ea41fa61b3cd77f84348f8e",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "b6b80b02c7348dafbef2401cd4cb6ecd0da441bd899ed3cebe83c78478b2fa31",
+        "bundled_analysis_sha256": "ecc267b429c8e5c83d1be45c643e6b503e9ac22638447bf1ee1f1dc0f6dc27ed",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "jewelry-pig",
+      "name": "猪宝",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "a92f147c23e029c04fcdefcf2d446c7cd34160abbd340ab456700f807da9ab90",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "14dd022814702da0bb65cd2f7bc5cb2529424fd761dc96145f05508adf75cfd7",
+        "bundled_analysis_sha256": "67690095aae6560bc9a0ad5301e525ad8c8012b5fb2874ad8e226b63d7dadd4a",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "jiahao-pig",
+      "name": "嘉豪猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "a8a3ab4234b53d1473757c536d44d36c4c98e2e29bee491ab5a67b46fde94678",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "juliet-pig",
+      "name": "猪丽叶",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "91a86f145d0d31ef8093347f3fd88c999301164b89d9d2b1e60c40985c304cbb",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "c07f6ba413adfc997a37621ed42c919fe50c5de1530d195835592c0196160c2a",
+        "bundled_analysis_sha256": "b3a10ca4966999d38708e8466fccb5ac7001738974919ae81dce1674dfdb34bd",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "jurassic-pig",
+      "name": "猪罗纪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "edf0ff240b1d9153614ae48b73a71e739ee9fb63ddc5993a08d62cc0d3677154",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "laborer-pig",
+      "name": "猪打工",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "fd0dbec351da46a7c38a840629e2b1e23535a2ebee1b30fc4dfdd8e1182137bc",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "landmine-pig",
+      "name": "滴泪猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "503dce31d3cbbac8601361a5a083328a5badd103e85b7ba2f3f92899ce3157ed",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "2e41c0c619e3f821c60d00b9629a950d8fe715108ff761dec3db95b2618e6752",
+        "bundled_analysis_sha256": "8e0cdd8fdd809f7415358f8b7076d62ce557a3d431cad84d19addef149803ec5",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lao_zhu_li",
+      "name": "老猪历",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "aaf42fc9dd6c782d7e0c321db43025737bcf57134608ba5c65ceaece686a6605",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "b7e71c3a310a7f1a97dc8096ae9fa8df234be33c9ff2d4d1a7270a10f0dcb1c7",
+        "bundled_analysis_sha256": "45701858b581bd26ce48856510dcd0c6218d3d254fcd1cd5d0a5b8f910ce7c8c",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lard-pig",
+      "name": "猪油",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "eab082e1f4be909182c91fb06a60eced0e258f6bc656a0ccf35663d532abd95e",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "leek-pig",
+      "name": "韭菜猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "a1e32d445d082ace930c93c8f61469ef8036591b697eaaecfc08a8dd262a4e63",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "79ecb7f496763912bb729160c074cf95e89b721a1e9bc95c3fc8104d13695069",
+        "bundled_analysis_sha256": "cce92cbb51d53fc638d219180e68d3e879bc75f3ae00f3662ede86c8e72a2d1a",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lemon-pig",
+      "name": "柠檬猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "543b61213130929a4957bede1db5f0382fb70dd36ae6e351f995820aa3316394",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "1a3416b263e9d6e3da436f1ef8f8b617146610bfd6489adfd79822c345f9f700",
+        "bundled_analysis_sha256": "a33057c5ade48c68f99dcc0c180cc8de27cb4656a1f5b339690097ced1b5d729",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lion-pig",
+      "name": "狮子猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "688e65ab92f812b94789dacc3ffff53127e69053f1d3b8106b7f36b634f827ab",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "little-red-pig",
+      "name": "小红猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "287691e98718bb1b40ef78790caf4dd3ae0724b6443e450d1f8a31897d83a7fa",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lone-pig",
+      "name": "形单影猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "f4deb04f527c7c56f0fb4e33d8875ed77ce6ef8802ccc65ed6f8bdc920fb9b10",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "lucky-mud-pig",
+      "name": "猪泥好运",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_historical_variant",
+      "published_image_sha256": "5953c3c4fae42800ec6dcb961a75af9deea48249bb40396e040fd96f8f4cf0d8",
+      "later_canonical_image_sha256": "f392fe6bb1462d412b8bfbd4043394987838493d0454d8bf20a9123268ed6c07",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "historical_image_exact": true,
+        "later_restricted_variant_withheld": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "magic-pig",
+      "name": "魔法少猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "40e03efcd622554fbdb450ef2f5f98acf9f2a0eb213b754330d9b99df95559c6",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "magic-pig-cat",
+      "name": "魔法猪咪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "73c908c45e0b778b5acba638a18a3231f8ef2f032aab4f20292bbf1ee63d13a6",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "mc_porkchop",
+      "name": "猪排",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "33c1c5d37dabb3d6db1fedd33c1de0a3e582ad6c2d6dd67a41325a9ab3df6aa3",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "mcdonalds-pig",
+      "name": "麦麦猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "842a78205075a2d77470492cad01c54cdeb5a28728c882352920b4d14a0a8798",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "mechanical-pig",
+      "name": "机械猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "7f2d1665e83e3f45c369094ac18a06799df1fb2549f7633c54a2ec86bf51d6a6",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "melting-pig",
+      "name": "猪融化",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "9803c85a6a9ef037247fdaf156e9176994ed74c97b76332a8fad7730e42b6781",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "miku-pig",
+      "name": "猪音未来",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "03fd139aec7f1fba394ee2938bf54995f492d499f5a189346f394dbf789c3972",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "mini-pig",
+      "name": "今日小猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "fb2eaa28bd0d00f3f039cca613614f2900adaaaff04327c86a68b679d95494b9",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "muscle-pig",
+      "name": "肌肉猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "8d84236fb886ef2a2ec06636be4d41833efdc61c0392c43ced043086c3d63e5d",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "ninja-pig",
+      "name": "猪忍",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "3500ceecf18d48bc950d43a899e3dbf58b7578ea7e2d4d1ddc56e3f4727bf720",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "nurse-pig",
+      "name": "护士小猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "45bfb598510d99d0d4b3f43bb361390ca72e722430c9343f8f0a5f954c1d6d7d",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "oil-painting-pig",
+      "name": "油画猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "a5c4e0bd121b93995961e45d13b41002d2131f01c4c23e5d3b6cbca2c3a5d29c",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "oreo-pig",
+      "name": "猪利猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "f53b355851a5ff93050ac2e31013eb6feca0e8ad79f9a33c5bc5adeb77a9f88a",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "oriental-pearl-pig",
+      "name": "东方明猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "cf45cad35a7057498d307e1c889875acb152d10bc5d0a1582cc6fda9cb9ae741",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "palico-pig",
+      "name": "艾露猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "ccc8dfc58d69e2bbbc74e665a67b34251c320322d1f360ed88762379a95d58f0",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pearl-pig",
+      "name": "珍猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "93e1f0803864286e7d35bdb50b51eb096e97a9d8e8c636c3e9b8306700e7de03",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "bf14bd9c15c517ca47a0edb90c142196786c7e9c7908f096600624b92286a6b9",
+        "bundled_analysis_sha256": "cd3c1b8f0c7b77b98f2e00f6f42de50fb14bbda3569a2dde32f6ceaadfbebfee",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig",
+      "name": "猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "e22a426d88caeab56a0cb21e507dc74828143bc4f9bd35b26c56b686b5f37e4e",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-ball",
+      "name": "猪猪球",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "d7b5dcf19c1c89ba5766e0d2995b2f2b59a491203401193b2f8a06115673b75e",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-bun",
+      "name": "猪包",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "2999218a82763f1530bde62f1e1faa4efa02398573b95b6fede17e8e8465ab3c",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "56f2834316cc4fb8429f11fbf2a1cb88800537f4478b399ce56b737375adac6a",
+        "bundled_analysis_sha256": "6a41b25dbe99c73e52570f16e890965164ecc0fa4137866e3d6fafea1036b8d3",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-cat",
+      "name": "猪咪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "e656a2f918b10926b32804bf8e22552da555990b5359e71ce5f2a077e580c118",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-coin",
+      "name": "猪币",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "1d7b4d0715507c74b517f2e927b523b5c5b5f7cdbdab63f87a89e960e8abea1a",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-die",
+      "name": "猪骰",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "e27a2c37fd39ba51e1395e2dd9cc62d4896ea7d182666b74268d3d94e0f3c81b",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "dcb9d2bbcd4c89788a7c280c8eab88a0af7e7fac016ce870ca8b13b9afd53c47",
+        "bundled_analysis_sha256": "0c7799371a2214aad309d7cd441045c73fdbc33a6f463303c304ad4c499eef68",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-human",
+      "name": "猪人",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "c295b6bd86125a01360f486bfdda94effbb0bd6e5ecfdff27a8d40de29093af7",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-king",
+      "name": "猪猪王",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "6aa1803aa3e81b2302f02dde97e4965145d79229713f56d776f8ff0dc2542163",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-rabbit-cage",
+      "name": "猪兔同笼",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "73473e2efc5b57ce72d9328991ecabf545fac071d0ce2f92f3ee54536af48b56",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-skin-milk",
+      "name": "猪皮奶",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "b4ea0c770b617a693c5afe06715ec94fccb7d5450acfe450f28049005765ace5",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-souffle",
+      "name": "猪芙蕾",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "59091ac0a3e2744ac035f59b81d31468f742aa4624a4c101d32467375019384f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "52c3bfa0b5803c215bc24d83db1fb389312e4a9acf6f40c1dbbe886a08e46f1a",
+        "bundled_analysis_sha256": "dfe304a71c6af9fa4e1357bea4b519bca87571ed1f8d574b0232c65cfe086439",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-stamp",
+      "name": "猪圆章",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5e35c40975f7c9c5a10142e3c9ce3ab0a56862179e76c7427e126f9865f1bad7",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig-turtle",
+      "name": "猪龟",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "4b5e96a61836fd2e0799289fc78af72baa4d390afb003a6d6508c3ca62f6c1cf",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "7144d48a0ae50ac78d1842481cec36d8171e11e03663db9f126354ecd08bc7b1",
+        "bundled_analysis_sha256": "54f88b25dfb757f0dae93ef1ca722e0b9ec40749f79e960696dd587674518bbd",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pig_god",
+      "name": "智慧小猪之神",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "1dbd6351ea4a09cce495cc6792a8fa0bd05d62d3da79b52a30bc270e58f193f9",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "b41c8e6d36a8645c3f54a6a5dcc2b8530eca8c6909efb50b618b73c20383afaa",
+        "bundled_analysis_sha256": "242b82322a7bad54de30356e5897127d0305aad2cd1a32f8d97238ece5fa0d5b",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "piggsium",
+      "name": "猪元素",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "38eaee1df29e727df071a49d47c95e6f8655bf9fbb5b4b79881ec194d7c3ef3b",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "piggy-bank",
+      "name": "储蓄罐",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "9c7da6ccff1f6ffbbc329fe7b918ddbbcc1b08788881aa6b19fa81b04662cc02",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "3e36ddf94725e78c227b917c94d1813744403d29bd674955114569154e5851e5",
+        "bundled_analysis_sha256": "027cd44a1d65b9258877d448ccdc2fa24e577e46ee8cc0039035f9baa4d7bc06",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pigskin-pig",
+      "name": "猪皮",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "69441e31fff3bd4a142711a6f1710173c7eda4f8b040417a322490838f1a8e51",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pigsleep",
+      "name": "服务猪繁忙",
+      "source": "Bearlele/nonebot-plugin-rollpig:nonebot_plugin_rollpig/resource/image/pigsleep.png@sha256:6e037397c3a88d675313dc3962f9b8e3c8714ba5a5d94255406a3dd5d202ffc3",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "6e037397c3a88d675313dc3962f9b8e3c8714ba5a5d94255406a3dd5d202ffc3",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "license": "MIT",
+      "attribution": [
+        "Bear_lele",
+        "MegSopern"
+      ],
+      "source_sha256": "6e037397c3a88d675313dc3962f9b8e3c8714ba5a5d94255406a3dd5d202ffc3",
+      "replacement_sha256": "5f38caab39ecdbe23be25d6df9e9ad24538779de727a9563052aa93d1a0cdeb4",
+      "transformation": "substantial redraw derived from the earlier Bear/Meg MIT asset; derivation confirmation recorded 2026-08-26",
+      "redistribution_allowed": true,
+      "asset_replacement_approval": {
+        "repository": "casama233/astrbot_plugin_rollpig",
+        "pr": 191,
+        "commit": "955129c4f203a92f4e673e79f3744549e2e378e2",
+        "record": "resource/asset_provenance.json",
+        "decision": "approved",
+        "date": "2026-08-27"
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pigtok",
+      "name": "猪音",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "6b89675958d58b1f1b2d11a61c1df59264ba7903cf2d5ff60dc356fcf9b78064",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pork-floss",
+      "name": "肉松",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "a241097faacc4c033e42d6adc2036cab43ed57278c2a4b03cc3dcea9bd353043",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "44afeb7f8acf2be557023f632b8bc6ab2db372c777555f5ef14ce01472449698",
+        "bundled_analysis_sha256": "3b63749a111059fa273d78e0e0cd6d39bdfc14392f76e183a8c1efc30ef36aaf",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "pork-skewer",
+      "name": "猪肉串",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "ce6ba946b38343756aaa5b172e20ec439556c8d82720ebea4cfed2dbfd088395",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "prison-break-pig",
+      "name": "出猪屋",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "29101d6c173ec3e10045c3c41046b2ae24de565ad2a13ef5e0bfa1f626852659",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "protagonist-pig",
+      "name": "猪角",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "fd836bc609339bf325e5b19d7c3380266759e6486cacd42c7e508cdcb720bbbf",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "7f12801f6911009294a815bca4e10cc4fb97ccdeeac1d10be2482ea9473458e6",
+        "bundled_analysis_sha256": "7a83df27b0780e35230745a427d4d3770c0b52f27528d586ee30a5564e547bbb",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "rail-pig",
+      "name": "猪铁",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "85de3ef0358f191c836f213895aa14dd60fb51bab0b851848e42f5bcff6c5796",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "rainbow-pig",
+      "name": "大色猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "a0c82a5003725f0b388e9bc874281ee05d28d77744ccc900046327b0d3379a15",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "cc30333aca4e4858ef9f44d46484ef7cf0c731b1485eed83e73e593d50a684af",
+        "bundled_analysis_sha256": "8e61699082b5d9c57e48f0fc68e3af446ec7eadbaa5f35152c5a5a45c762c6e7",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "repeater-pig",
+      "name": "复读猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "af35356faf43645e6d4dfd94410db773311b870d271240660f702c7ac1a2e51f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "f823e3288aecd2d1a9dc859ea9ea62ec339e813bebe414c18259f65dc61dbb8b",
+        "bundled_analysis_sha256": "7c9460411aae83a383a8f406ceb00dd35c0db22ae6585fb2b984b851651c31fc",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "roasted-pig",
+      "name": "烤猪",
+      "source": "Bearlele/nonebot-plugin-rollpig:nonebot_plugin_rollpig/resource/image/roasted-pig.png@sha256:2ac2151d9b258553f47b76a494ac37fb0fcb7c555d21c648fda15c83f540c6b1",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "2ac2151d9b258553f47b76a494ac37fb0fcb7c555d21c648fda15c83f540c6b1",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "license": "MIT",
+      "attribution": [
+        "Bear_lele",
+        "MegSopern"
+      ],
+      "source_sha256": "2ac2151d9b258553f47b76a494ac37fb0fcb7c555d21c648fda15c83f540c6b1",
+      "replacement_sha256": "f096f63e77e109efc0cdc29cfa85aac121336ced66082a4fd84745f96ad6d547",
+      "transformation": "image optimization of the earlier Bear/Meg MIT asset",
+      "redistribution_allowed": true,
+      "asset_replacement_approval": {
+        "repository": "casama233/astrbot_plugin_rollpig",
+        "pr": 191,
+        "commit": "955129c4f203a92f4e673e79f3744549e2e378e2",
+        "record": "resource/asset_provenance.json",
+        "decision": "approved",
+        "date": "2026-08-27"
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "2794fec5c4f6397b8179364fd785685b3b837cea3d10415219bd628bd2ab9c30",
+        "bundled_analysis_sha256": "d6e62d7e22b7e9fa638427999a4518b7313376f0e9dcab5f6055c527d203d1c3",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "rolling-pig",
+      "name": "猪打滚",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "8f78168cbd562be157f37602eb99b8bd83de35bb8eade6ce8f13b51e17f70737",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "salmon-sushi-pig",
+      "name": "三文猪寿司",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "bbc55bae03b6d80ae4cc5780d30e839e05e82b2a566410d7156669a76d5a9470",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "shocking-delicious",
+      "name": "震撼美味",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "97ba18f57380ca874cb6b8d4caacb47e62c6ac2aed2b3cd609dc07a861331921",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "shop-pig",
+      "name": "猪卖部",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "636b95c5aac0fd7060f363825cd8f2d9b2b00d51a694e587591637bfbe256ab2",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "shrimp-sushi-pig",
+      "name": "猪咪虾寿司",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "1b1e9a0763b40334d1f621ce3e6c2f47e58f1c17cf11cb5218e4e35d55a52f64",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "skeleton-pig",
+      "name": "骷髅猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "84028beafe56da0ca3b8729c88402280861395568c0660128f262ef60b4d75a7",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "sleepy-pig",
+      "name": "猪犯困",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "59c03db54b412f8bf77cec68148b3f172bc7ef0bdc114860dd65d299f10cfd93",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "slippery-pig",
+      "name": "小心猪滑",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "6bcad9b14794181430b497359c6abedb9d0b34f11effd0469042b9004865658f",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "snow-pig",
+      "name": "雪猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "218be8d6a514b0a0b924b19c1c470c5aba3238d3b52f85dc7f5e5e05e97e97dd",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "sold-out",
+      "name": "猪售罄",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "1c6e8eb1e25ab927d28609ff9080817c98bb3ad28d67018f068b5811379c63e9",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "soul-pig",
+      "name": "灵魂猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "3e5029ee4fc39deb8ba6637bf4d1ea76c77f74cfe8f5b8e69d337b86dcd46831",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "spider-pig",
+      "name": "蜘蛛",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "470f5e1bc8f09b6a7a98fad3f127c1bfda284b499e2f1ff1c1f9f1b4daade6e1",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "ccf911df1b00f33deb1976295069e7dff1962f2346330df0c823873c36e864a9",
+        "bundled_analysis_sha256": "1d5ece3910a147ec3ea1c66d5a6a48e33fe69f690238fbf6b8d88ad341b9048f",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "spring-festival-pig",
+      "name": "等春节猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "29c996dac713f0d886cbff6159245e05dcad4cc95bf183e516f703344fa7fa69",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "stacking-pig",
+      "name": "猪叠猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "1c881fbfe02038e41ebe2021d36c506a950a98b3508c88b0b23468b83b76916c",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "stem-pig",
+      "name": "理工猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "2413d114f7d6fb73d2abfb1427e006992ecae68a949ee5b9d88ec9b2d1d7791d",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "strawberry-cake-pig",
+      "name": "猪咪莓蛋糕",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "b3670d973e328ac60898bc4ded6d6f54fe7560d8269d3d80913eac4595aad4b6",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "streamer-pig",
+      "name": "猪播",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5a4c233a824626325a4a5a0ee071a9c45fc692ec932011c53b9fe8904d7a34e5",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "cd503941fae04635b5a90f15b40bb29e66f49f303a512d2f0980850d2a419001",
+        "bundled_analysis_sha256": "f1507f67926db361488be1925ee2f015c1615dbaa6ecd9e5450f4a3eaea8c818",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "stressed-pig",
+      "name": "猪力山大",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "136b061ff5322442d9909295c40aa0fd2a2874c4e9af5153ae273794e049b97d",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "stuck-pig",
+      "name": "卡猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "90249988d75abcb7d77e51694c3ee7162c705c5a1463854ab3e535691cd9a736",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "study-pig",
+      "name": "猪学习",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "2a110590aec268409e2ff3a1dfce425ac2449914f2be1310eab01a45d852b2d6",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "suckling-pig",
+      "name": "烤乳猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "cda716026a9eaa3098d58081ce7c6917ba2b6ca3265f184800ea4e4d690c2562",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "15934faa8ef325265ca614d07db9896b1c2cbdcb74190545395eeaa2ced85875",
+        "bundled_analysis_sha256": "3e8a3e5440c307cb308d459d5a47be8ced1147df6c3a999cefedaf2e3e545e0b",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "sushi-platter-pig",
+      "name": "猪寿司拼盘",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "3ca70719cbb407a7112e86c78b7740e63e54088def0573852c853dea292250b6",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "taffy-pig",
+      "name": "永猪塔菲",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "f53b69834568a83195fa574118e9af05d04d7b44f9c4c6913687bb4b34aba83f",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "efdcff0b14f75e9e4c9420ae409bd2d0e894609956ebb763fdb8b2d9a940da3b",
+        "bundled_analysis_sha256": "afe9a7e8b6176fecb399bcc8513a57f4c1965ef145aef6e2d55b6d9d530bdcab",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "tamagoyaki-pig",
+      "name": "猪猪玉子烧",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "cd03e658ace17876c7d85adcbc10e4aee0982bc10bc8eed5183a052f9bfb94d1",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "tangyuan_pig",
+      "name": "黑猪麻汤圆",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "8a0bc937d82b8ff8410de29a9a915ae96253838563ae4cb1a54756ceae00a0d9",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "ecf79d278506daa96e2830d861e2766956ed6ec5a2b4b306d64c9d118675bac5",
+        "bundled_analysis_sha256": "61d6f9541f0d92f9a1c5e789ebe4d125f7871fdd937e0fdf0852e549fd54715a",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "tank_pig",
+      "name": "坦克猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "b4a27b2e8c1ed73a377911f537b9e02883eb7ad18c5b9515ec46935666d46248",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "060317e036ad2b7a29b7cd33cee82676782bb362940741ae3c2136aaa841128e",
+        "bundled_analysis_sha256": "02594125c478095612edbdbde9ad626ab85f2de29fff57a2f271b533f3b81fad",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "taxi-pig",
+      "name": "出猪车",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "77be64a8841b40aed4eb8495e282b09d73312930a09a17a8d7880fd649aeed98",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "d70d6c0d7089baec00e25e0b7d409b5c35ab46790737023ceb4e063d245aab24",
+        "bundled_analysis_sha256": "8574fec8017ac1fc79f04f1dc9a52a9213d10312d2e689b8be5a929878e794cc",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "teammate-pig",
+      "name": "猪队友",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "5611acbf37e6a7cd6dce9910016a3da0f826d72ea48483b16bcf4ab0484ffc09",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "c86403f964dd39f70a75d5662447c7e3b06fbf21253f2743c8ba6f6a982bfd6d",
+        "bundled_analysis_sha256": "8e49bd0dde693b20f5ee9fd467ccb59276e202d2528b3bd66facd71749212a23",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "tiramisu-pig",
+      "name": "提拉米猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "386e24cf13a8122f7d9df4ca89092f39e4d49b6e37ba100087ccb544deb83601",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "twitch-pig",
+      "name": "抽搐猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "ddf3aabad58a5c3ebd83134d246fe70c5cd9769cce587d70e9878244d3bb53c1",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "ufo-pig",
+      "name": "飞碟猪",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "9de75235983d6e6f945386f962cc718027e7da6e1c9ce19886ad5434c68c47e9",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "unchained-pig-king",
+      "name": "摆脱枷锁的猪猪王",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "11b84d14e9aca377247d63cf35f82e266b39b6b85c58bf398aa3fbed0950d39d",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "upper-class-pig",
+      "name": "上流猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "920386b0df60bd2dd0b485674da2d3b209e277e9b1b94308cd52f8a4678f7c02",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "vangogh_pig",
+      "name": "梵高猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "b704507f05389c4ddfd1469c8f117350ae64a424390b305a4260586435cde927",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "8d2e22b49b74a1147275264997a215f9e25e6ed97d378c8804cd702d91616ce5",
+        "bundled_analysis_sha256": "b865f055fe116724990d92d5b38e51aee3493734783cae818478ade1a15d1c97",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "watermelon-pig",
+      "name": "西瓜猪",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "16ea1efacbc1ebad6097331e1dbb80f515c984a36f27c0e140bb807d96c6e917",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      },
+      "base_analysis_override": {
+        "classification": "reviewed_bundled_analysis_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "public_analysis_sha256": "bd357a660ac9e50030c5db284d7043208e787a0c2e1283fde9e33490941400b7",
+        "bundled_analysis_sha256": "025267b666589eeb82ac78a8532e9a9abcf87dd348603bc95591150e51631825",
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "wechat-pig",
+      "name": "猪信",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "7476289b7ca4eb5f2f3988fc8db65862a669a26ec01944afbc3716b4c60f3ee2",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "wild-boar",
+      "name": "野猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "75a06198b4b448556a858b67d7642c3638352b3361e688ae23bc0537e278c5b3",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "world-ruler-pig",
+      "name": "世界的猪宰",
+      "source": "Bearlele/nonebot-plugin-rollpig + MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "ed71e8bdcf53d070761bc2d013f7559dc847115c1b794cde9df44e32ec64a1d0",
+      "evidence": {
+        "exact_repositories": [
+          "Bearlele/nonebot-plugin-rollpig",
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "yiwei-pig",
+      "name": "猪意味",
+      "source": "Felis2026/nonebot-plugin-rollpig-plus",
+      "classification": "felis_pre_resource_license_mit_exact",
+      "canonical_image_sha256": "4c63e73a965794ad6cd181302583b33832af6efa81a2d17fe0564c2cafbcf7d2",
+      "evidence": {
+        "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
+        "time": "2026-08-13T22:43:05+08:00",
+        "license": "MIT",
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "public_only_handcrafted_ex",
+        "source": "casama233/rollpig-public-source-service",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "猪葛亮",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "caf17984d5330572481e2fafc20e5fe180ff684b6a5097886aba7288d45e8a8b",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    },
+    {
+      "id": "zombie-pig",
+      "name": "僵尸猪",
+      "source": "MegSopern/astrbot_plugin_rollpig",
+      "classification": "bear_meg_upstream_exact",
+      "canonical_image_sha256": "7ca425a7f908df1f303255544fa53eae294c2e91f44e94fff9588d5560526dc3",
+      "evidence": {
+        "exact_repositories": [
+          "MegSopern/astrbot_plugin_rollpig"
+        ],
+        "record_exact": true,
+        "image_exact": true
+      },
+      "ex_authoring": {
+        "classification": "bundled_lineage_handwritten_ex_reuse",
+        "source": "casama233/astrbot_plugin_rollpig",
+        "commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+        "levels": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "reviewer": "casama233"
+      }
+    }
+  ],
+  "ex_authoring_profile": "complete-handwritten-ex",
+  "ex_authoring_resource_count": 164
+}

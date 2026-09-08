@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "client": "astrbot_plugin_rollpig_plus",
+  "protocol_version": 1,
+  "resource_version": "2026.09.05.1",
+  "generated_at": "2026-09-04T19:59:40+00:00",
+  "pig_count": 164,
+  "package_size": 17341655,
+  "ex_variant_pig_count": 164,
+  "ex_variant_image_count": 0,
+  "roast_copy_dish_count": 32,
+  "roast_copy_line_count": 79,
+  "attribution_bundle": true,
+  "profile": "complete-handwritten-ex",
+  "extended_resources": true,
+  "handwritten_ex_pig_count": 164,
+  "handwritten_ex_level_count": 820,
+  "freeze_fingerprint": "c3e5268c35b7b71b499a0953d6c72fd11f8d08f27d75ab27fb1ea6e099fd6628",
+  "source_fingerprint": "e4103db69b061fe66c98620b585fc2672147f9a083f6195fc430588437e7e2b3",
+  "public_only_copy_digest": "ea1c3fb63b7d87b98fe01bf12127977839f27db1a5dcd01a759772c5a6b057ea",
+  "bundled_copy_digest": "b335b56db1b29d83f9faea04d5cdd5ee6d46ee7cf71634719490952448796f07",
+  "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36"
+}

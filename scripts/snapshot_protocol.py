@@ -12,6 +12,10 @@ from pathlib import PurePosixPath
 
 CLIENT = "astrbot_plugin_rollpig_plus"
 PROFILE = "provenance-safe-base-only"
+COMPLETE_PROFILE = "complete-handwritten-ex"
+PROFILES = {PROFILE, COMPLETE_PROFILE}
+BINDING_FIELDS = {"freeze_fingerprint", "source_fingerprint", "public_only_copy_digest",
+                  "bundled_copy_digest", "overlap_plan_sha256"}
 MAX_MANIFEST = 1024 * 1024
 MAX_PROVENANCE = 2 * 1024 * 1024
 MAX_PACKAGE = 128 * 1024 * 1024
@@ -57,11 +61,16 @@ def validate_manifest(raw: bytes) -> tuple[dict, list[dict]]:
     manifest = parse_json(raw)
     allowed = {"schema_version", "client", "resource_version", "generated_at", "profile",
                "pig_count", "package_size", "pig_json", "images", "notice", "provenance", "licenses"}
+    complete = isinstance(manifest, dict) and manifest.get("profile") == COMPLETE_PROFILE
+    if complete:
+        allowed |= {"ex_variants", "variant_images", "ex_variant_pig_count", "ex_authoring",
+                    "roast_copy", "roast_copy_dish_count", "roast_copy_line_count",
+                    "extended_resources", "handwritten_ex_pig_count", "handwritten_ex_level_count"} | BINDING_FIELDS
     if not isinstance(manifest, dict) or set(manifest) != allowed:
         raise ValueError("base-only manifest has missing or unexpected fields")
     if type(manifest["schema_version"]) is not int or manifest["schema_version"] != 1:
         raise ValueError("unsupported schema_version")
-    if manifest["client"] != CLIENT or manifest["profile"] != PROFILE:
+    if manifest["client"] != CLIENT or manifest["profile"] not in PROFILES:
         raise ValueError("unexpected client or publication profile")
     version = manifest["resource_version"]
     if not isinstance(version, str) or not re.fullmatch(r"[0-9A-Za-z][0-9A-Za-z._-]{0,63}", version):
@@ -79,6 +88,22 @@ def validate_manifest(raw: bytes) -> tuple[dict, list[dict]]:
     declarations = [(manifest["pig_json"], "pig.json", MAX_IMAGE),
                     (manifest["notice"], "NOTICE.md", MAX_TEXT),
                     (manifest["provenance"], "PROVENANCE.json", MAX_PROVENANCE)]
+    if complete:
+        if manifest["variant_images"] != [] or manifest["extended_resources"] is not True:
+            raise ValueError("complete handwritten profile permits text EX only")
+        for key, expected in (("ex_variant_pig_count", count), ("handwritten_ex_pig_count", count),
+                              ("handwritten_ex_level_count", count * 5)):
+            if type(manifest[key]) is not int or manifest[key] != expected:
+                raise ValueError("incomplete handwritten EX counts")
+        for key in BINDING_FIELDS:
+            if not isinstance(manifest[key], str) or not SHA256.fullmatch(manifest[key]):
+                raise ValueError("invalid authoring review binding")
+        for key in ("roast_copy_dish_count", "roast_copy_line_count"):
+            if type(manifest[key]) is not int or manifest[key] < 1:
+                raise ValueError("invalid roast copy counts")
+        declarations += [(manifest["ex_variants"], "pig_ex_variants.json", MAX_PROVENANCE),
+                         (manifest["ex_authoring"], "EX-AUTHORING.json", MAX_TEXT),
+                         (manifest["roast_copy"], "roast_copy.json", 256 * 1024)]
     declarations += [(item, "image", MAX_IMAGE) for item in images]
     declarations += [(item, "license", MAX_TEXT) for item in licenses]
     members, seen = [], set()
