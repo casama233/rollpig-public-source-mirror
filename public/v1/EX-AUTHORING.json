@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "profile": "complete-handwritten-ex",
+  "publication_state": "published",
+  "publication_reviewer": "casama233",
+  "reviewed_at": "2026-09-02T23:15:14+00:00",
+  "freeze_fingerprint": "c3e5268c35b7b71b499a0953d6c72fd11f8d08f27d75ab27fb1ea6e099fd6628",
+  "base_resource_version": "2026.08.27.1",
+  "plugin_commit": "6addec7b19151b0374aa0d79b65408104bda66af",
+  "source_fingerprint": "e4103db69b061fe66c98620b585fc2672147f9a083f6195fc430588437e7e2b3",
+  "public_only_copy_digest": "ea1c3fb63b7d87b98fe01bf12127977839f27db1a5dcd01a759772c5a6b057ea",
+  "bundled_copy_digest": "b335b56db1b29d83f9faea04d5cdd5ee6d46ee7cf71634719490952448796f07",
+  "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36",
+  "pig_count": 164,
+  "handwritten_ex_pig_count": 164,
+  "handwritten_ex_level_count": 820,
+  "overlap_reuse_count": 96,
+  "public_only_handwritten_count": 68,
+  "base_analysis_replacement_count": 45,
+  "source_review_checksum_count": 78,
+  "output": "/root/rollpig-private-audits/complete-ex-source-e4103db69b06",
+  "published_at": "2026-09-04T19:59:40+00:00"
+}
