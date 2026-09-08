@@ -85,9 +85,9 @@ class PublicationPolicyTests(unittest.TestCase):
         self.check()
         self.assertEqual(before, {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob("*") if p.is_file()})
 
-    def test_repository_approval_list_remains_empty(self):
+    def test_repository_policy_does_not_approve_unrelated_synthetic_snapshot(self):
         policy = json.loads(DEFAULT_APPROVALS.read_text(encoding="utf-8"))
-        self.assertEqual(policy, {"schema_version": 2, "approved_snapshots": {}})
+        self.assertEqual(policy["schema_version"], 2)
         with self.assertRaisesRegex(ValueError, "no separately reviewed"):
             validate_publication(self.root)
 

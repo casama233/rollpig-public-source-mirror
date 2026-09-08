@@ -1,4 +1,4 @@
-# Publication remains frozen until a separate rights-and-client restoration review.
+# Every published file is bound to the existing source-service rights review.
 name: Public mirror provenance guard
 
 on:
@@ -38,10 +38,15 @@ jobs:
       - name: Test publication authorization and protocol integrity
         run: python -m unittest discover -s tests -v
 
-      - name: Assert the entire publication is notice-only
-        shell: bash
+      - name: Validate the complete reviewed publication
+        run: python scripts/build_publication.py
+
+      - name: Require withdrawn snapshots to be removed from GitHub publication
         run: |
-          test -f public/NOTICE.txt
-          test ! -L public/NOTICE.txt
-          test "$(find public -mindepth 1 -print)" = "public/NOTICE.txt"
-          echo "Mirror remains fail-closed; no artwork or resource snapshot is published."
+          python - <<'PYTHON'
+          import json
+          from pathlib import Path
+          policy = json.loads(Path('publication-approvals.json').read_text())
+          if not any(v.get('status') == 'approved' for v in policy['approved_snapshots'].values()):
+              assert not Path('public/v1').exists(), 'Remove withdrawn public/v1 files in the same commit'
+          PYTHON

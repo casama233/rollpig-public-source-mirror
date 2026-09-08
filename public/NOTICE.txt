@@ -1,5 +1,1 @@
-RollPig public disaster-recovery mirroring is temporarily disabled.
-
-The previously published public/v1 snapshot was removed from the current tree on 2026-08-25 during the provenance and redistribution-rights audit. Git history is intentionally preserved as audit evidence, but no pre-audit resource snapshot should be served from this repository or its Vercel deployment.
-
-A public mirror may only be restored after the candidate is verified as provenance-safe base-only and carries the required attribution/provenance materials.
+RollPig disaster-recovery mirror. Only the exact source-service publication approved in publication-approvals.json is served. Version and attribution: /v1/NOTICE.md. Unreviewed resources and private review data are excluded.

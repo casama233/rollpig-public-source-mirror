@@ -1,13 +1,19 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "test -f public/NOTICE.txt && test ! -L public/NOTICE.txt && test \"$(find public -mindepth 1 -print)\" = \"public/NOTICE.txt\"",
-  "outputDirectory": "public",
+  "buildCommand": "python3 scripts/build_publication.py",
+  "outputDirectory": "dist",
   "headers": [
     {
-      "source": "/v1/(.*)",
+      "source": "/(.*)",
       "headers": [
-        {"key": "Cache-Control", "value": "no-store, max-age=0"},
-        {"key": "X-Content-Type-Options", "value": "nosniff"}
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
       ]
     }
   ]
