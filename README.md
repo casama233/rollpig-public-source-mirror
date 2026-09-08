@@ -1,38 +1,33 @@
 # RollPig Public Source Mirror
 
-Read-only disaster-recovery mirror tooling for the AstrBot RollPig public resource source.
+Read-only disaster-recovery mirror of the existing reviewed RollPig source publication.
 
-## Current status: fail closed
+The restored snapshot is **2026.09.05.1**, `complete-handwritten-ex`: **164 pigs / 820 EX levels**. It is byte-identical to the source service's published release, including `NOTICE.md`, `PROVENANCE.json`, `LICENSES/` and `EX-AUTHORING.json`. The 68 public-only rights decisions, 96 overlap reviews, historical MIT evidence and completed publication already exist in `casama233/rollpig-public-source-service`; this mirror does not require those decisions to be recreated.
 
-Public mirroring is **temporarily disabled** while the provenance and redistribution-rights audit remains open. The stale pre-audit `public/v1` snapshot has been removed from the current repository tree. Git history is intentionally preserved as audit evidence, but it must not be treated as an active publication source.
+- Primary: https://curryudon.top/astrbot-rollpig/v1/manifest.json
+- Vercel mirror: https://rollpig-public-source-mirror.vercel.app/v1/manifest.json
+- GitHub fallback: https://raw.githubusercontent.com/casama233/rollpig-public-source-mirror/main/public/v1/manifest.json
 
-Accordingly:
+Clients require plugin v3.12.3 or later for independently verified mirror failover. They fetch the current approval policy from the fixed GitHub repository, verify the complete snapshot, reject downgrade relative to local cache, and install only the bytes they verified. An unavailable policy prevents a new mirror activation. Private/custom sources remain isolated from this public chain.
 
-- `public/v1/manifest.json` is intentionally absent;
-- the Vercel deployment connected to this repository must not serve a RollPig v1 snapshot;
-- the scheduled primary-source mirroring job is disabled;
-- clients must fall back to their last-known-good local cache or bundled resources when the authoritative primary source is unavailable.
+## Publication and withdrawal
 
-## Restoration requirements
+`publication-approvals.json` is the independent exact-manifest and per-file inventory. Only one current approved snapshot is published. Resource versions are explicit; this frozen mirror does not claim to follow arbitrary new primary releases automatically. New snapshots require their existing source review/publication evidence to be bound to a new exact inventory before refresh.
 
-A disaster-recovery mirror may only be restored through a separately reviewed publication change after all of the following are true:
+```bash
+python scripts/validate_snapshot.py
+python -m unittest discover -s tests -v
+python scripts/build_publication.py
+```
 
-1. the candidate is the same audited **provenance-safe base-only** publication intended for the authoritative public source;
-2. `NOTICE.md`, `PROVENANCE.json` and the applicable `LICENSES/` material travel with the published snapshot;
-3. unaudited extension material is excluded, including authored EX/EX image payloads, `pig_ex_variants.json`, `roast_copy.json` and historical compatibility-floor payloads unless their redistribution rights are independently established;
-4. the mirror validator checks provenance/publication-profile requirements in addition to Resource Protocol integrity, size and SHA-256 checks;
-5. the RollPig client independently rejects a mirror that does not satisfy the provenance-safe mirror contract.
+A manual `python scripts/sync_primary.py` refresh downloads every approved member, never skips validation merely because a version string matches, and cannot approve a new snapshot. Failed downloads preserve the previously approved working tree without pretending the refresh succeeded. Scheduled unreviewed copying remains disabled.
 
-Restoring `public/v1` therefore requires changing the fail-closed GitHub Actions guard in the same reviewed change. A normal sync failure must never leave an older publication silently available as a fallback.
+To withdraw a snapshot:
 
-## Authoritative source
+```bash
+python scripts/revoke_snapshot.py MANIFEST_SHA256
+```
 
-The authoritative resource source remains:
+Commit and deploy the resulting policy change and removal of `public/v1` together. Vercel then serves notice-only; GitHub main no longer contains the snapshot. Clients reject removed/revoked approvals on their next successful policy check and move mirror-origin cached assets out of active lookup. A network outage cannot prove a withdrawal, so existing locally verified caches remain available until a current policy can be read. Historical Git commits and old immutable deployment URLs are evidence, not supported automatic fallback targets.
 
-`https://curryudon.top/astrbot-rollpig/v1/manifest.json`
-
-This repository is non-authoritative. It must not be used to expand, re-license or independently republish third-party resources.
-
-## Security and rights boundary
-
-Review databases, admin tokens, pending submissions, production configuration and other private service state must never be mirrored here. Likewise, source-code licensing must not be assumed to grant redistribution rights for artwork, prose, catalog data or other non-code assets.
+Private reviews, tokens, databases, uploads and quarantined resources are excluded. See [restoration evidence and client contract](RESTORATION.md).
