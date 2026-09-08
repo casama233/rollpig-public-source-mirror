@@ -1,31 +1,52 @@
-# 公共災備恢復準備：先核對權利，再發布
+# 公共災備恢復準備
 
-## 本批做到哪裡
+## 狀態
 
-本批只加入可執行的發布授權檢查、測試及更嚴格的 Vercel notice-only 建置限制，**不恢復 `public/v1`，不啟動自動同步，不解除插件的 `PUBLIC_MIRROR_FAIL_CLOSED`**。`publication-approvals.json` 的批准清單刻意留空：目前沒有因此獲得鏡像發布授權的素材。CI 通過不等於版權審計完成。
+本批只有離線驗證器與 notice-only 建置限制，**沒有恢復 public/v1、沒有開 cron、沒有解除插件 PUBLIC_MIRROR_FAIL_CLOSED**。publication-approvals.json 的批准清單仍為空。通過程式測試不是素材獲得授權，也不是鏡像已上線。
 
-## 候選包與審核記錄
+## 與權威服務的實際格式對齊
 
-只能評估與權威 primary 相同的已審計 base-only publication。`manifest.json` 的 `publication_profile` 必須是 `provenance-safe-base-only`。包只含 `pig.json`、基礎圖片、`manifest.json`、`NOTICE.md`、`PROVENANCE.json` 及適用的 `LICENSES/*.txt`／`*.md`。不帶 EX、烤豬文案包、相容性擴充、舊 mirror.json／health.json、憑證或私有檔案。
+契約基準：rollpig-public-source-service 的 build_provenance_safe_source.py 與 build_resource_source.py，提交 8e5d1d6c8b67c478896d5b5213b1b1f6e784de80。
 
-`PROVENANCE.json` 以 `publication_profile` 及 `files` 為頂層欄位。`files` 必須逐項覆蓋 pig.json（包括目錄文字）及每張基礎圖片；每項都要有 author、source_url、evidence_url、license_file、rights_basis、review_note 與真正經人工核驗的 redistribution_verified=true。rights_basis 只接受 original-work、explicit-permission、public-domain、permissive-asset-license；不是任填 true 就得到權利。
+- manifest 使用 `profile=provenance-safe-base-only`，不是 `publication_profile`。
+- `notice`、`provenance`、`licenses` 都是帶 path／size／sha256 的 manifest 成員，必須計入 `package_size`。
+- `PROVENANCE.json` 使用 `resource_count` 和逐豬 `items`（id、source、classification）；不得為迎合鏡像而改寫已審核來源文件。
+- 服務端可另產生 health.json；它不計入 package_size，但若帶入候選，仍須逐位元組列入獨立批准清單，且其版本、數量、profile、時間、來源及 base-only 狀態必須與 manifest 相符。
+- 目錄、圖片、provenance 的 ID 集合須完全一致。EX、variant_images、roast_copy、相容性擴充、舊 mirror.json 或額外私有檔案一律不在此契約內。
 
-仓库维护的 `publication-approvals.json` 与下载包分离，不能信任镜像自带批准文件。其 approved_snapshots 用完整 manifest SHA-256 作键，每项包含 status=approved、profile、固定 primary_manifest_url、review_url 和 files（每个实际文件路径对应其 SHA-256，包含授权与来源材料）。仅有全局代码 MIT 许可、可下载、注明非商业，均不能替代逐项素材再分发依据。
+一般來源服務的新 EX authoring／Release 程式，不能直接被當成 base-only 鏡像。服務程式已合併、authoring 批准或投稿審核成功，也不能替代鏡像的獨立發布批准。不要從目前可能含 EX 的 v1 偷改 profile 或刪掉幾個欄位，便宣稱是同一份已批准發布。
 
-审批记录、各文件、来源材料或目录任一改变，都须重新审查；缺少证据、撤销批准、换图、夹带未声明档案、symlink、路径穿越都拒绝。检查器只能证明实际字节与已记录审查一致，不能自动判断声明是否真实或授权范围是否足够。
+## 獨立批准清單 v2
 
-## 仍需完成，不能跳过
+批准文件在倉庫維護，不能從下載包取得。頂層 `schema_version=2`，`approved_snapshots` 以完整 manifest SHA-256 為鍵；每條記錄必須包含：
 
-1. 从有权再分发的候选资源建立真实证据，不从旧 Git 历史或旧部署恢复整包，不把 Felis 客户端直读许可当作 CDN 镜像许可。
-2. 人工核验候选与权威源确为同一份发布，把审核记录、素材与授权材料绑定在同一独立 PR；删除／撤销授权时同时处理 CDN、GitHub 当前发布与客户端缓存政策。
-3. 插件端加入独立的 mirror provenance contract 验证，并端到端验证主源故障、空白名单、旧快照、损坏文件与私人源隔离；之后才可在同一协调发布中解除双侧锁定。
-4. 当前 sync_primary.py 是历史下载工具，不负责新的授权资料获取或审查；不能仅开启 cron 就投入服务。未来需移除其仅版本／manifest 相同就提前返回的捷径，每次验证完整当前授权候选，并在重新开放前设计撤回与失败后的清理策略。
+| 欄位 | 用途 |
+| --- | --- |
+| status | 必須是 approved；pending、revoked、not_published 都拒絕 |
+| profile | 固定 provenance-safe-base-only |
+| primary_manifest_url | 固定權威源地址，不接受任意私人來源 |
+| review_url | 可核查的 HTTPS 發布審核記錄 |
+| files | 全部實際檔案路径 → SHA-256，包含 manifest、來源材料、授權檔與可選 health |
+| rights | pig.json 和每張圖片路径 → 獨立的逐檔權利審核 |
 
-## 本地验证
+rights 每項包含 author、source_url、evidence_url、license_file、rights_basis、review_note、redistribution_verified=true。rights_basis 支持 original-work、explicit-permission、public-domain、permissive-asset-license；license_file 必須是 manifest 中的授權檔。pig.json 的審核必須涵蓋其目錄文字，不只是圖片。
+
+來源材料的 classification 是描述，不是授權；獨立 rights 審核不能省略。檢查器只能證明實際字節、契約與記錄一致，不能判斷聲明真偽或代替人工法律／權利審核。不能僅憑代碼 MIT 授權、非商業用途、可下載或客户端直讀權限就批准 CDN 再分發。
+
+舊的假設性 publication_profile／provenance.files 形狀不再被接受。本次升至批准清單 v2 沒有遷移任何真實批准，因為舊清單原本也是空的。
+
+## 仍不能跳過的恢復前置條件
+
+1. 以相同、已審核的權威 base-only 候選及真實來源／權利證據建立獨立發布 PR。不復活舊歷史快照，不以 EX 寫作批准代替公開分發批准。
+2. 明確核對候選與權威發布完全一致，記錄可核驗版本與逐檔雜湊；授權撤回時，需協調 CDN、GitHub 當前發布及客戶端快取政策。
+3. 客戶端實作獨立 provenance contract，完成主源故障、過期／未批准快照、檔案損壞、撤回及私人源隔離的端到端測試，才可協調解除雙側封鎖。
+4. 舊 sync_primary.py 仍不是投產同步器，不能直接開啟 cron。新離線驗證不依賴它，也不執行其網路下載或版本捷徑；未來同步器必須獲取完整來源材料、每次核驗目前批准並處理撤回與失敗清理。
+
+## 驗證
 
 ```bash
 python -m unittest discover -s tests -v
 python scripts/validate_snapshot.py /path/to/reviewed-candidate
 ```
 
-第二条默认使用仓库内的批准清单；目前为空，所以应拒绝全部资源候选。测试使用程序临时生成的合成数据，不含第三方图片／文案，不会成为公开源。
+第二條僅讀取本機候選與倉庫批准清單，不上網、不改候選、不建立發布目錄。清單為空時拒絕所有真實候選是正確結果。測試只使用合成資料，覆蓋服務端格式、完整性與拒絕路徑，不是實際素材審核或生產容災演練。

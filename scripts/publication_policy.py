@@ -1,64 +1,37 @@
-"""Offline publication authorization; protocol integrity alone grants no rights.
+"""Check source-service bytes against a separately reviewed publication policy.
 
-Approvals are a separately reviewed repository file, never remote input. An
-empty approval map intentionally rejects every resource snapshot. Passing this
-check means bytes match a recorded review, not that software can prove copyright.
+The policy is maintained outside the candidate. No matching approval means no
+publication. Structural validity is not proof of copyright or permission.
 """
 from __future__ import annotations
 
-import hashlib
-import json
-import re
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit
 
-PROFILE = "provenance-safe-base-only"
+from snapshot_protocol import (CLIENT, ID, MAX_MANIFEST, MAX_PROVENANCE, PROFILE,
+                               SHA256, digest, parse_json, safe_path, validate_manifest)
+
 PRIMARY = "https://curryudon.top/astrbot-rollpig/v1/manifest.json"
 DEFAULT_APPROVALS = Path(__file__).resolve().parents[1] / "publication-approvals.json"
-MAX_META_BYTES = 1024 * 1024
-MAX_FILE_BYTES = 50 * 1024 * 1024
-MAX_TOTAL_BYTES = 132 * 1024 * 1024
-MAX_FILES = 1650
-BASE_RIGHTS = {"original-work", "explicit-permission", "public-domain", "permissive-asset-license"}
+RIGHTS_BASES = {"original-work", "explicit-permission", "public-domain", "permissive-asset-license"}
 
 
 def _read(path: Path, limit: int) -> bytes:
     if path.is_symlink() or not path.is_file():
-        raise ValueError(f"not a regular publication file: {path}")
-    with path.open("rb") as handle:
-        data = handle.read(limit + 1)
+        raise ValueError(f"not a regular publication file: {path.name}")
+    with path.open("rb") as source:
+        data = source.read(limit + 1)
     if len(data) > limit:
         raise ValueError(f"publication file exceeds limit: {path.name}")
     return data
 
 
-def _json(data: bytes) -> dict:
-    def unique(pairs):
-        result = {}
-        for key, value in pairs:
-            if key in result:
-                raise ValueError(f"duplicate JSON key: {key}")
-            result[key] = value
-        return result
-    value = json.loads(data.decode("utf-8-sig"), object_pairs_hook=unique)
-    if not isinstance(value, dict):
-        raise ValueError("publication metadata must be an object")
-    return value
+def _text(value) -> bool:
+    return isinstance(value, str) and bool(value.strip())
 
 
-def _path(value: object) -> str:
-    if not isinstance(value, str) or not value or "\\" in value or ":" in value or "\x00" in value:
-        raise ValueError("invalid publication path")
-    parts = value.split("/")
-    if any(part in {"", ".", ".."} or part != part.strip() for part in parts):
-        raise ValueError("non-canonical publication path")
-    if PurePosixPath(value).is_absolute():
-        raise ValueError("absolute publication path")
-    return value
-
-
-def _https(value: object) -> bool:
-    if not isinstance(value, str) or not value.strip():
+def _https(value) -> bool:
+    if not _text(value):
         return False
     try:
         parsed = urlsplit(value)
@@ -71,52 +44,29 @@ def validate_publication(root: Path, approvals_path: Path = DEFAULT_APPROVALS) -
     root = Path(root)
     if root.is_symlink() or not root.is_dir():
         raise ValueError("snapshot root must be a real directory")
-    policy = _json(_read(Path(approvals_path), MAX_META_BYTES))
-    approved = policy.get("approved_snapshots")
-    if policy.get("schema_version") != 1 or not isinstance(approved, dict):
+    policy = parse_json(_read(Path(approvals_path), MAX_PROVENANCE))
+    if (not isinstance(policy, dict) or type(policy.get("schema_version")) is not int
+            or policy["schema_version"] != 2 or not isinstance(policy.get("approved_snapshots"), dict)):
         raise ValueError("invalid publication approval policy")
-    raw = _read(root / "manifest.json", MAX_META_BYTES)
-    manifest_hash = hashlib.sha256(raw).hexdigest()
-    review = approved.get(manifest_hash)
+    raw = _read(root / "manifest.json", MAX_MANIFEST)
+    manifest_hash = digest(raw)
+    review = policy["approved_snapshots"].get(manifest_hash)
     if not isinstance(review, dict) or review.get("status") != "approved":
         raise ValueError("snapshot has no separately reviewed publication approval")
     if review.get("profile") != PROFILE or review.get("primary_manifest_url") != PRIMARY:
         raise ValueError("approval does not identify the audited primary base-only publication")
     if not _https(review.get("review_url")):
         raise ValueError("approval is missing a review reference")
-    manifest = _json(raw)
-    if manifest.get("publication_profile") != PROFILE:
-        raise ValueError("manifest is not provenance-safe base-only")
-    if any(manifest.get(key) is not None for key in ("roast_copy", "ex_variants", "compatibility_floor")):
-        raise ValueError("extension payloads are not permitted in a base-only mirror")
-    if manifest.get("variant_images", []) != []:
-        raise ValueError("EX images are not permitted in a base-only mirror")
-    catalog = manifest.get("pig_json")
-    images = manifest.get("images")
-    if not isinstance(catalog, dict) or not isinstance(images, list) or not images:
-        raise ValueError("base-only publication requires a catalog and images")
-    members = [catalog, *images]
-    if any(not isinstance(member, dict) for member in members):
-        raise ValueError("invalid base member")
-    member_paths = [_path(member.get("path")) for member in members]
-    if len(set(member_paths)) != len(member_paths):
-        raise ValueError("duplicate publication member")
-    if member_paths[0] != "pig.json":
-        raise ValueError("base catalog must be pig.json")
-    for name in member_paths[1:]:
-        path = PurePosixPath(name)
-        if len(path.parts) != 2 or path.parts[0] not in {"image", "images"} or path.suffix.lower() not in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-            raise ValueError("unexpected base image path")
+    manifest, members = validate_manifest(raw)
     files = review.get("files")
-    if not isinstance(files, dict) or not files or len(files) > MAX_FILES:
-        raise ValueError("approval requires an exact bounded file inventory")
-    expected = {_path(name) for name in files}
+    if not isinstance(files, dict) or not 1 <= len(files) <= 521:
+        raise ValueError("approval requires a bounded exact file inventory")
+    expected = {safe_path(name) for name in files}
     if len({name.casefold() for name in expected}) != len(expected):
-        raise ValueError("case-colliding publication paths")
-    required = {"manifest.json", "NOTICE.md", "PROVENANCE.json", *member_paths}
-    licenses = {name for name in expected if name.startswith("LICENSES/") and PurePosixPath(name).suffix.lower() in {".md", ".txt"}}
-    if not licenses or not required <= expected or expected != required | licenses:
-        raise ValueError("missing rights documents or forbidden/unexpected publication files")
+        raise ValueError("case-colliding approved paths")
+    required = {"manifest.json", *(member["path"] for member in members)}
+    if not required <= expected or expected - required - {"health.json"}:
+        raise ValueError("missing or forbidden/unexpected publication files")
     actual = set()
     allowed_dirs = {str(parent) for name in expected for parent in PurePosixPath(name).parents if str(parent) != "."}
     for path in root.rglob("*"):
@@ -128,34 +78,74 @@ def validate_publication(root: Path, approvals_path: Path = DEFAULT_APPROVALS) -
         if not path.is_file() or name not in expected:
             raise ValueError("undeclared publication path")
         actual.add(name)
-        if len(actual) > MAX_FILES:
-            raise ValueError("too many publication files")
     if actual != expected:
         raise ValueError("publication inventory is incomplete")
-    total = 0
-    for name, digest in files.items():
-        if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+    by_path = {member["path"]: member for member in members}
+    for name, sha in files.items():
+        if not isinstance(sha, str) or not SHA256.fullmatch(sha):
             raise ValueError("invalid approved file digest")
-        limit = MAX_FILE_BYTES if name in member_paths[1:] else MAX_META_BYTES
-        data = _read(root / name, limit)
-        total += len(data)
-        if total > MAX_TOTAL_BYTES:
-            raise ValueError("publication exceeds total size limit")
-        if hashlib.sha256(data).hexdigest() != digest:
+        member = by_path.get(name)
+        data = _read(root / name, member["size"] if member else MAX_MANIFEST)
+        if digest(data) != sha:
             raise ValueError(f"reviewed bytes changed: {name}")
-        if name in {"NOTICE.md", *licenses} and not data.strip():
-            raise ValueError("empty attribution or license document")
-    provenance = _json(_read(root / "PROVENANCE.json", MAX_META_BYTES))
-    records = provenance.get("files")
-    if provenance.get("publication_profile") != PROFILE or not isinstance(records, dict) or set(records) != set(member_paths):
-        raise ValueError("provenance must cover the catalog text and every base image exactly")
-    for name, record in records.items():
+        if member and (len(data) != member["size"] or digest(data) != member["sha256"]):
+            raise ValueError(f"protocol size/sha256 mismatch: {name}")
+        if name == "NOTICE.md" or name.startswith("LICENSES/"):
+            if not data.decode("utf-8").strip():
+                raise ValueError("empty attribution or license document")
+    # Keep the actual service provenance shape; do not rewrite it into a new
+    # per-file document just to satisfy the mirror. Bind original bytes above.
+    catalog = parse_json(_read(root / "pig.json", by_path["pig.json"]["size"]))
+    if not isinstance(catalog, list) or len(catalog) != manifest["pig_count"]:
+        raise ValueError("catalog count differs from manifest")
+    ids = set()
+    for item in catalog:
+        if (not isinstance(item, dict) or not isinstance(item.get("id"), str)
+                or not ID.fullmatch(item["id"]) or item["id"] in ids
+                or not all(_text(item.get(key)) for key in ("name", "description", "analysis"))):
+            raise ValueError("invalid or duplicate catalog item")
+        ids.add(item["id"])
+    image_ids = [PurePosixPath(item["path"]).stem for item in manifest["images"]]
+    if len(set(image_ids)) != len(image_ids) or set(image_ids) != ids:
+        raise ValueError("image IDs differ from catalog")
+    provenance = parse_json(_read(root / "PROVENANCE.json", MAX_PROVENANCE))
+    if (not isinstance(provenance, dict) or type(provenance.get("resource_count")) is not int
+            or provenance["resource_count"] != len(ids) or not isinstance(provenance.get("items"), list)):
+        raise ValueError("provenance must contain resource_count and items")
+    seen = set()
+    for item in provenance["items"]:
+        if (not isinstance(item, dict) or not isinstance(item.get("id"), str)
+                or item["id"] not in ids or item["id"] in seen
+                or not _text(item.get("source")) or not _text(item.get("classification"))):
+            raise ValueError("invalid or duplicate provenance item")
+        seen.add(item["id"])
+    if seen != ids:
+        raise ValueError("provenance IDs differ from catalog")
+    # Rights are an independent review, not inferred from provenance labels.
+    rights = review.get("rights")
+    asset_paths = {"pig.json", *(item["path"] for item in manifest["images"])}
+    licenses = {item["path"] for item in manifest["licenses"]}
+    if not isinstance(rights, dict) or set(rights) != asset_paths:
+        raise ValueError("independent rights review must cover catalog text and every image")
+    for name, record in rights.items():
         if not isinstance(record, dict) or record.get("redistribution_verified") is not True:
             raise ValueError(f"redistribution is unverified: {name}")
-        if record.get("rights_basis") not in BASE_RIGHTS or record.get("license_file") not in licenses:
+        if record.get("rights_basis") not in RIGHTS_BASES or record.get("license_file") not in licenses:
             raise ValueError(f"missing asset-specific rights basis: {name}")
         if not _https(record.get("source_url")) or not _https(record.get("evidence_url")):
             raise ValueError(f"missing source or permission evidence: {name}")
-        if not all(isinstance(record.get(key), str) and record[key].strip() for key in ("author", "review_note")):
+        if not all(_text(record.get(key)) for key in ("author", "review_note")):
             raise ValueError(f"missing attribution or review note: {name}")
-    return {"publication_profile": PROFILE, "manifest_sha256": manifest_hash, "review_url": review["review_url"], "approved_files": len(files)}
+    if "health.json" in expected:
+        health = parse_json(_read(root / "health.json", MAX_MANIFEST))
+        matching = {"status": "ok", "client": CLIENT, "protocol_version": 1,
+                    "resource_version": manifest["resource_version"], "profile": PROFILE,
+                    "pig_count": len(ids), "package_size": manifest["package_size"],
+                    "generated_at": manifest["generated_at"],
+                    "attribution_bundle": True, "extended_resources": False}
+        if not isinstance(health, dict) or health != matching or any(type(health[key]) is not type(value) for key, value in matching.items()):
+            raise ValueError("health metadata disagrees with the base-only publication")
+    return {"publication_profile": PROFILE, "manifest_sha256": manifest_hash,
+            "review_url": review["review_url"], "approved_files": len(files),
+            "resource_version": manifest["resource_version"], "pig_count": len(ids),
+            "members": len(members), "package_size": manifest["package_size"]}
