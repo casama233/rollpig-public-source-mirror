@@ -1,4 +1,4 @@
-# Fail closed while the provenance / redistribution-rights audit is open.
+# Publication remains frozen until a separate rights-and-client restoration review.
 name: Public mirror provenance guard
 
 on:
@@ -6,11 +6,19 @@ on:
     branches: [main]
     paths:
       - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "publication-approvals.json"
+      - "vercel.json"
       - ".github/workflows/sync-primary.yml"
   pull_request:
     branches: [main]
     paths:
       - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "publication-approvals.json"
+      - "vercel.json"
       - ".github/workflows/sync-primary.yml"
   workflow_dispatch:
 
@@ -20,15 +28,20 @@ permissions:
 jobs:
   fail-closed:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
 
-      - name: Assert stale public snapshot is not publishable
+      - name: Test publication authorization and protocol integrity
+        run: python -m unittest discover -s tests -v
+
+      - name: Assert the entire publication is notice-only
         shell: bash
         run: |
           test -f public/NOTICE.txt
-          if [ -e public/v1 ]; then
-            echo "::error::public/v1 is disabled during the provenance audit. Restore it only through a separately reviewed provenance-safe base-only publication change."
-            exit 1
-          fi
-          echo "Mirror is fail-closed: no public/v1 snapshot is present."
+          test ! -L public/NOTICE.txt
+          test "$(find public -mindepth 1 -print)" = "public/NOTICE.txt"
+          echo "Mirror remains fail-closed; no artwork or resource snapshot is published."
