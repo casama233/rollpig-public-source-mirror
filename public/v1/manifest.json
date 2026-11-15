@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "client": "astrbot_plugin_rollpig_plus",
-  "resource_version": "2026.09.05.1",
-  "generated_at": "2026-09-04T19:59:40+00:00",
+  "resource_version": "2026.11.15.1",
+  "generated_at": "2026-11-14T18:45:24+00:00",
   "pig_count": 164,
-  "package_size": 17341655,
+  "package_size": 17481858,
   "pig_json": {
     "path": "pig.json",
-    "size": 59192,
-    "sha256": "a3a6b66c917c2ed0345d8d78273619c5ba4e91df9e047c3d9801c74b37d04719"
+    "size": 62035,
+    "sha256": "dcc4aaf9a8d18fbdd4f5da7dc071f15fe21cb130efb446f909a3e04648ae81e1"
   },
   "images": [
     {
@@ -996,62 +996,59 @@
       "sha256": "7ca425a7f908df1f303255544fa53eae294c2e91f44e94fff9588d5560526dc3"
     }
   ],
+  "ex_variants": {
+    "path": "pig_ex_variants.json",
+    "size": 284414,
+    "sha256": "4ff1b35db38336f9d22f2d35db3ab363a22685b57622cd4de29405180111a149"
+  },
+  "variant_images": [],
+  "ex_variant_pig_count": 164,
+  "freeze_fingerprint": "6fbba197c55d1117d7cf83561bbc5cfa83f587037fd5291be2017b0eaeb5adb7",
+  "source_fingerprint": "b1562d1718e438fb4cc8b8ede5037d6fff7e2fb2df325d5f29b163849886d1a0",
+  "public_only_copy_digest": "1225599500159210c147610f0d4f34ddc82a279bb64c6fbf2be885cfcf2f0335",
+  "bundled_copy_digest": "1c6df75a58d109c5c437d0d56cdb88c657da040f97a7611de172a6d3732194a0",
+  "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36",
+  "handwritten_ex_pig_count": 164,
+  "handwritten_ex_level_count": 820,
+  "profile": "complete-handwritten-ex",
+  "extended_resources": true,
+  "notice": {
+    "path": "NOTICE.md",
+    "size": 4027,
+    "sha256": "c5fce9466d5e1bd540935514509a6ca7118d7cecdabf5a6d9d34e6a042599723"
+  },
+  "provenance": {
+    "path": "PROVENANCE.json",
+    "size": 180433,
+    "sha256": "6668c61eb89832ba2c9273b33c164512909edec573b001f656d9f260a6be95ed"
+  },
+  "ex_authoring": {
+    "path": "EX-AUTHORING.json",
+    "size": 55862,
+    "sha256": "99db19164f6a53ab1ee1ccf86a297ab97f44668c206c304a8d04647e525dc5e8"
+  },
+  "licenses": [
+    {
+      "path": "LICENSES/Bearlele-MIT.txt",
+      "size": 1066,
+      "sha256": "4de353115544c221f1b071c050ff3ebbbd36c8714a7656ed5fac7b6d0fba8693"
+    },
+    {
+      "path": "LICENSES/Felis-RollPig-Plus-pre-resource-license-MIT.txt",
+      "size": 1096,
+      "sha256": "8daeea404d9db1cef1dbb87adb40141e621fc723768e214b57d90cdf5c6dd6a0"
+    },
+    {
+      "path": "LICENSES/MegSopern-MIT.txt",
+      "size": 1094,
+      "sha256": "5e076eb67d8855f27d817bdd7b47a818f0cfa0ca4f79fe03a3a67c5dbed142b3"
+    }
+  ],
   "roast_copy": {
     "path": "roast_copy.json",
     "size": 8362,
     "sha256": "8098034aebf804b72e25b39fc8edf0b4b06a9e702fc437058da7c8d7353119de"
   },
   "roast_copy_dish_count": 32,
-  "roast_copy_line_count": 79,
-  "ex_variants": {
-    "path": "pig_ex_variants.json",
-    "size": 224022,
-    "sha256": "050076ff4552b66f34dc4c292c9cd861df30f5ed2fe87ff3b39735f38c98158c"
-  },
-  "variant_images": [],
-  "ex_variant_pig_count": 164,
-  "notice": {
-    "path": "NOTICE.md",
-    "size": 3816,
-    "sha256": "0f1d5ac151a3bd68726f3b87ee3fa4318a5b83227b4a0f08733d46947ac0f624"
-  },
-  "provenance": {
-    "path": "PROVENANCE.json",
-    "size": 158416,
-    "sha256": "5643107e696a2bb6f56126202ff83dd05f81a5640d2d6c5b2e1a96ff0385bdfd"
-  },
-  "licenses": [
-    {
-      "filename": "Bearlele-MIT.txt",
-      "path": "LICENSES/Bearlele-MIT.txt",
-      "size": 1066,
-      "sha256": "4de353115544c221f1b071c050ff3ebbbd36c8714a7656ed5fac7b6d0fba8693"
-    },
-    {
-      "filename": "Felis-RollPig-Plus-pre-resource-license-MIT.txt",
-      "path": "LICENSES/Felis-RollPig-Plus-pre-resource-license-MIT.txt",
-      "size": 1096,
-      "sha256": "8daeea404d9db1cef1dbb87adb40141e621fc723768e214b57d90cdf5c6dd6a0"
-    },
-    {
-      "filename": "MegSopern-MIT.txt",
-      "path": "LICENSES/MegSopern-MIT.txt",
-      "size": 1094,
-      "sha256": "5e076eb67d8855f27d817bdd7b47a818f0cfa0ca4f79fe03a3a67c5dbed142b3"
-    }
-  ],
-  "ex_authoring": {
-    "path": "EX-AUTHORING.json",
-    "size": 1122,
-    "sha256": "afe97a43c63151d91dd5696da82957133af21b6130b4e9a34fa52e0177a72c7c"
-  },
-  "profile": "complete-handwritten-ex",
-  "extended_resources": true,
-  "handwritten_ex_pig_count": 164,
-  "handwritten_ex_level_count": 820,
-  "freeze_fingerprint": "c3e5268c35b7b71b499a0953d6c72fd11f8d08f27d75ab27fb1ea6e099fd6628",
-  "source_fingerprint": "e4103db69b061fe66c98620b585fc2672147f9a083f6195fc430588437e7e2b3",
-  "public_only_copy_digest": "ea1c3fb63b7d87b98fe01bf12127977839f27db1a5dcd01a759772c5a6b057ea",
-  "bundled_copy_digest": "b335b56db1b29d83f9faea04d5cdd5ee6d46ee7cf71634719490952448796f07",
-  "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36"
+  "roast_copy_line_count": 79
 }

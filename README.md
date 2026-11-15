@@ -1,8 +1,8 @@
 # RollPig Public Source Mirror
 
-Read-only disaster-recovery mirror of the existing reviewed RollPig source publication.
+Verified disaster-recovery mirror of the maintained RollPig source publication.
 
-The restored snapshot is **2026.09.05.1**, `complete-handwritten-ex`: **164 pigs / 820 EX levels**. It is byte-identical to the source service's published release, including `NOTICE.md`, `PROVENANCE.json`, `LICENSES/` and `EX-AUTHORING.json`. The 68 public-only rights decisions, 96 overlap reviews, historical MIT evidence and completed publication already exist in `casama233/rollpig-public-source-service`; this mirror does not require those decisions to be recreated.
+The current snapshot is **2026.11.15.1**, `complete-handwritten-ex`: **164 pigs / 820 EX levels**. It includes a maintainer-authorized Gemini Argon/Hydrogen base and EX text refresh dated 2026-11-15. Model/request authorship is recorded in EX-AUTHORING.json; legacy handwritten profile names indicate explicit coverage, not human authorship. Image bytes, licenses and image rights are unchanged. It is byte-identical to the source service's published release, including `NOTICE.md`, `PROVENANCE.json`, `LICENSES/` and `EX-AUTHORING.json`. The 68 public-only rights decisions, 96 overlap reviews, historical MIT evidence and completed publication already exist in `casama233/rollpig-public-source-service`; this mirror does not require those decisions to be recreated.
 
 - Primary: https://curryudon.top/astrbot-rollpig/v1/manifest.json
 - Vercel mirror: https://rollpig-public-source-mirror.vercel.app/v1/manifest.json
