@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "client": "astrbot_plugin_rollpig_plus",
-  "resource_version": "2026.11.16.1",
-  "generated_at": "2026-11-16T05:30:00+00:00",
+  "resource_version": "2026.11.24.1",
+  "generated_at": "2026-11-24T05:34:46+00:00",
   "pig_count": 164,
-  "package_size": 17433678,
+  "package_size": 17442249,
   "pig_json": {
     "path": "pig.json",
-    "size": 53852,
-    "sha256": "3f5b720c2b56a953b01d72a3d587f8832bc6f64b2c324ffe04a38039a4c03e26"
+    "size": 53492,
+    "sha256": "8480560c58a4950544f281b05c80ce0515ed89748f2383b3387428808f75b280"
   },
   "images": [
     {
@@ -998,34 +998,41 @@
   ],
   "ex_variants": {
     "path": "pig_ex_variants.json",
-    "size": 243459,
-    "sha256": "5bd86f331e7e781e2a4b86f52559776dcf9cead86581668331c2eb5f5c059053"
+    "size": 241750,
+    "sha256": "44cbb639a49191b043a3ad1af117369b32ceb05c2935b4cbfb1f006089774190"
   },
   "variant_images": [],
   "ex_variant_pig_count": 164,
-  "freeze_fingerprint": "ef6481f3d13bfee560294453a7b003be8d60441531db1eaf5f066348918427fc",
-  "source_fingerprint": "4cf332350cf384d91028cdda6d6697fd8f07b07ca357a4595142b0d966c3fcb9",
-  "public_only_copy_digest": "f87201692137944ba12c44bf45df145787e6ad3f341551c6bfc4b18845a1e998",
-  "bundled_copy_digest": "06238ac7a911a03ff6e839f4fb1d8e92bf91a1e743de7f06f92c48a976b3ffcf",
+  "freeze_fingerprint": "4a98605a69e9482ed60b616ed968680f6b19bd5d4396c4f4b128b5253b2a4c31",
+  "source_fingerprint": "e454115156ee39a42dcd0a33298ccce8673f93625c378aaaf2c0f809c9aec94a",
+  "public_only_copy_digest": "e7a2ad44151a66a32532a85671858e4f72f5c7bcfa8ea73df963693743b282c8",
+  "bundled_copy_digest": "a92d4415e82718bf13716451c88713092523007c6091d61ab261ab2cf89f8d43",
   "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36",
-  "handwritten_ex_pig_count": 164,
-  "handwritten_ex_level_count": 820,
   "profile": "complete-handwritten-ex",
   "extended_resources": true,
+  "handwritten_ex_pig_count": 164,
+  "handwritten_ex_level_count": 820,
+  "roast_copy_dish_count": 32,
+  "roast_copy_line_count": 80,
   "notice": {
     "path": "NOTICE.md",
-    "size": 4680,
-    "sha256": "6e140fee316ec18ae0b4a0430d07bfe4fe37cf6dce36f20e703ede428da80a54"
+    "size": 4929,
+    "sha256": "ea4c53820962a7000f8dd01c84d0a57456c49931281efeb7127c2d714f68c5f0"
   },
   "provenance": {
     "path": "PROVENANCE.json",
-    "size": 180634,
-    "sha256": "d34aa634b708868a9cb8ed90493885870c5d94806e81a5ca6500249cab7fb6f5"
+    "size": 185992,
+    "sha256": "06c00c8c0b81e152833a034b01d383708582076d03e3d99527cd285dc00ba2ff"
   },
   "ex_authoring": {
     "path": "EX-AUTHORING.json",
-    "size": 56091,
-    "sha256": "9df2de0e56205a8c0b7a33b8c9af9ec1230ee5aa929f456e71c3ae7dd9787609"
+    "size": 61124,
+    "sha256": "142c12d732bb8ccc1fb8d72d9666457f15f507df7282f299d9ed0f4036711534"
+  },
+  "roast_copy": {
+    "path": "roast_copy.json",
+    "size": 8237,
+    "sha256": "1ad747af8723618c115ca05e03b9f57584a5990a7db681971839275b05557bcb"
   },
   "licenses": [
     {
@@ -1043,12 +1050,5 @@
       "size": 1094,
       "sha256": "5e076eb67d8855f27d817bdd7b47a818f0cfa0ca4f79fe03a3a67c5dbed142b3"
     }
-  ],
-  "roast_copy": {
-    "path": "roast_copy.json",
-    "size": 8237,
-    "sha256": "1ad747af8723618c115ca05e03b9f57584a5990a7db681971839275b05557bcb"
-  },
-  "roast_copy_dish_count": 32,
-  "roast_copy_line_count": 80
+  ]
 }
