@@ -15,8 +15,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.238515+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -46,8 +46,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.238663+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -76,8 +76,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.238772+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -107,8 +107,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.238872+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -146,8 +146,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.238976+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -177,8 +177,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e1283474cb8a",
-        "generated_at": "2026-11-16T04:37:05.239070+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -216,8 +216,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-83669d5bc36e",
-        "generated_at": "2026-11-16T04:37:46.088674+00:00",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -255,7 +255,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-1725a71b53dc",
+        "request_id": "chatcmpl-00e6af958e5c",
+        "response_received_at": "2026-11-25T01:41:59.435215+00:00",
         "levels": [
           "0",
           "1",
@@ -263,33 +264,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-dd3a43f774b7",
-            "response_received_at": "2026-11-24T01:35:46.223526+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-dd3a43f774b7",
-            "response_received_at": "2026-11-24T01:35:46.223526+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          }
-        }
+        ]
       },
       "original_base_record_evidence": {
         "exact_repositories": [
@@ -310,8 +285,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-83669d5bc36e",
-        "generated_at": "2026-11-16T04:37:46.088828+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -340,8 +315,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-83669d5bc36e",
-        "generated_at": "2026-11-16T04:37:46.089060+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -379,8 +354,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-83669d5bc36e",
-        "generated_at": "2026-11-16T04:37:46.089164+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -409,8 +384,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-83669d5bc36e",
-        "generated_at": "2026-11-16T04:37:46.089274+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -440,8 +415,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.391842+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -471,8 +446,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.392005+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -480,7 +455,13 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "display_fit_revisions": {
+          "5.description": {
+            "request_id": "chatcmpl-955200344923",
+            "response_received_at": "2026-11-25T01:49:07.589662+00:00"
+          }
+        }
       },
       "base_analysis_override": {
         "classification": "reviewed_bundled_analysis_reuse",
@@ -511,8 +492,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.392132+00:00",
+        "request_id": "chatcmpl-8d9d0b406d25",
+        "response_received_at": "2026-11-25T01:42:05.039303+00:00",
         "levels": [
           "0",
           "1",
@@ -520,7 +501,25 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "display_fit_revisions": {
+          "2.description": {
+            "request_id": "chatcmpl-955200344923",
+            "response_received_at": "2026-11-25T01:49:07.589662+00:00"
+          },
+          "3.description": {
+            "request_id": "chatcmpl-955200344923",
+            "response_received_at": "2026-11-25T01:49:07.589662+00:00"
+          },
+          "4.description": {
+            "request_id": "chatcmpl-955200344923",
+            "response_received_at": "2026-11-25T01:49:07.589662+00:00"
+          },
+          "5.description": {
+            "request_id": "chatcmpl-955200344923",
+            "response_received_at": "2026-11-25T01:49:07.589662+00:00"
+          }
+        }
       },
       "original_base_record_evidence": {
         "commit": "36d0687c7fb26e087e8baea44afa2a960c677d34",
@@ -542,8 +541,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e7b0d823cccf",
-        "generated_at": "2026-11-16T04:30:19.770521+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -572,8 +571,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.392283+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -602,8 +601,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.392405+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -632,8 +631,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-82222b3185e5",
-        "generated_at": "2026-11-16T04:38:29.392504+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -671,8 +670,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-539df3b32e53",
-        "generated_at": "2026-11-16T04:39:11.659378+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -710,8 +709,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-539df3b32e53",
-        "generated_at": "2026-11-16T04:39:11.659618+00:00",
+        "request_id": "chatcmpl-96b2b99c0496",
+        "response_received_at": "2026-11-25T01:42:36.419356+00:00",
         "levels": [
           "0",
           "1",
@@ -740,8 +739,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-539df3b32e53",
-        "generated_at": "2026-11-16T04:39:11.659724+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -770,8 +769,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.394795+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -809,8 +808,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.394932+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -839,8 +838,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.395098+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -878,8 +877,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.395210+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -908,8 +907,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.395333+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -938,8 +937,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-0c1d30fd81dc",
-        "generated_at": "2026-11-16T04:39:51.395428+00:00",
+        "request_id": "chatcmpl-97a356f3d9ee",
+        "response_received_at": "2026-11-25T01:42:43.298042+00:00",
         "levels": [
           "0",
           "1",
@@ -969,8 +968,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c15272bbde1d",
-        "generated_at": "2026-11-16T04:40:33.581714+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1009,8 +1008,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c15272bbde1d",
-        "generated_at": "2026-11-16T04:40:33.581875+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1041,8 +1040,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c15272bbde1d",
-        "generated_at": "2026-11-16T04:40:33.582031+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1072,8 +1071,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c15272bbde1d",
-        "generated_at": "2026-11-16T04:40:33.582255+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1104,8 +1103,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c15272bbde1d",
-        "generated_at": "2026-11-16T04:40:33.582397+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1135,8 +1134,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-296a50b1906d",
-        "generated_at": "2026-11-16T04:41:08.373125+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1165,8 +1164,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-296a50b1906d",
-        "generated_at": "2026-11-16T04:41:08.373259+00:00",
+        "request_id": "chatcmpl-f63478c700d1",
+        "response_received_at": "2026-11-25T01:43:24.248665+00:00",
         "levels": [
           "0",
           "1",
@@ -1196,8 +1195,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-296a50b1906d",
-        "generated_at": "2026-11-16T04:41:08.373468+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1227,8 +1226,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-296a50b1906d",
-        "generated_at": "2026-11-16T04:41:08.373565+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1257,8 +1256,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-296a50b1906d",
-        "generated_at": "2026-11-16T04:41:08.373657+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1288,8 +1287,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-5840923b26e8",
-        "generated_at": "2026-11-16T04:41:50.692783+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1327,8 +1326,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-5840923b26e8",
-        "generated_at": "2026-11-16T04:41:50.692920+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1358,8 +1357,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-5840923b26e8",
-        "generated_at": "2026-11-16T04:41:50.693063+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1388,8 +1387,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b6bb64c2ed1d",
-        "generated_at": "2026-11-16T05:13:43.277852+00:00",
+        "request_id": "chatcmpl-2dee20534645",
+        "response_received_at": "2026-11-25T01:43:19.485104+00:00",
         "levels": [
           "0",
           "1",
@@ -1427,8 +1426,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-5840923b26e8",
-        "generated_at": "2026-11-16T04:41:50.693301+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1457,8 +1456,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-5840923b26e8",
-        "generated_at": "2026-11-16T04:41:50.693395+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1487,8 +1486,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-31bf21c641cc",
-        "generated_at": "2026-11-16T04:42:30.744321+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1517,8 +1516,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-31bf21c641cc",
-        "generated_at": "2026-11-16T04:42:30.744433+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1547,8 +1546,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-31bf21c641cc",
-        "generated_at": "2026-11-16T04:42:30.744637+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1578,8 +1577,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-31bf21c641cc",
-        "generated_at": "2026-11-16T04:42:30.744736+00:00",
+        "request_id": "chatcmpl-f561df938258",
+        "response_received_at": "2026-11-25T01:44:21.316216+00:00",
         "levels": [
           "0",
           "1",
@@ -1609,8 +1608,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a8624475fe29",
-        "generated_at": "2026-11-16T04:43:09.639433+00:00",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1639,8 +1638,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a8624475fe29",
-        "generated_at": "2026-11-16T04:43:09.639586+00:00",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1678,8 +1677,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a8624475fe29",
-        "generated_at": "2026-11-16T04:43:09.639701+00:00",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1708,8 +1707,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a8624475fe29",
-        "generated_at": "2026-11-16T04:43:09.639810+00:00",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1738,7 +1737,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-dd3a43f774b7",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1746,33 +1746,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-dd3a43f774b7",
-            "response_received_at": "2026-11-24T01:35:46.223526+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          }
-        }
+        ]
       },
       "original_base_record_evidence": {
         "exact_repositories": [
@@ -1794,8 +1768,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-060e55447c12",
-        "generated_at": "2026-11-16T04:43:48.857523+00:00",
+        "request_id": "chatcmpl-b73f51658711",
+        "response_received_at": "2026-11-25T01:43:56.955216+00:00",
         "levels": [
           "0",
           "1",
@@ -1832,8 +1806,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-060e55447c12",
-        "generated_at": "2026-11-16T04:43:48.857668+00:00",
+        "request_id": "chatcmpl-3d2af607e75a",
+        "response_received_at": "2026-11-25T01:45:00.533698+00:00",
         "levels": [
           "0",
           "1",
@@ -1863,8 +1837,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-060e55447c12",
-        "generated_at": "2026-11-16T04:43:48.857785+00:00",
+        "request_id": "chatcmpl-3d2af607e75a",
+        "response_received_at": "2026-11-25T01:45:00.533698+00:00",
         "levels": [
           "0",
           "1",
@@ -1894,8 +1868,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-060e55447c12",
-        "generated_at": "2026-11-16T04:43:48.857894+00:00",
+        "request_id": "chatcmpl-3d2af607e75a",
+        "response_received_at": "2026-11-25T01:45:00.533698+00:00",
         "levels": [
           "0",
           "1",
@@ -1924,8 +1898,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a666830f6306",
-        "generated_at": "2026-11-16T04:44:32.901523+00:00",
+        "request_id": "chatcmpl-3d2af607e75a",
+        "response_received_at": "2026-11-25T01:45:00.533698+00:00",
         "levels": [
           "0",
           "1",
@@ -1963,8 +1937,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a666830f6306",
-        "generated_at": "2026-11-16T04:44:32.901668+00:00",
+        "request_id": "chatcmpl-3d2af607e75a",
+        "response_received_at": "2026-11-25T01:45:00.533698+00:00",
         "levels": [
           "0",
           "1",
@@ -2002,8 +1976,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a666830f6306",
-        "generated_at": "2026-11-16T04:44:32.901913+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2032,8 +2006,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a666830f6306",
-        "generated_at": "2026-11-16T04:44:32.902100+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2062,8 +2036,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-475fd15925eb",
-        "generated_at": "2026-11-16T04:45:15.540487+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2092,8 +2066,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-475fd15925eb",
-        "generated_at": "2026-11-16T04:45:15.540611+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2123,8 +2097,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-475fd15925eb",
-        "generated_at": "2026-11-16T04:45:15.540735+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2153,8 +2127,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-475fd15925eb",
-        "generated_at": "2026-11-16T04:45:15.540840+00:00",
+        "request_id": "chatcmpl-b4580af8f223",
+        "response_received_at": "2026-11-25T01:45:16.170573+00:00",
         "levels": [
           "0",
           "1",
@@ -2183,8 +2157,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-475fd15925eb",
-        "generated_at": "2026-11-16T04:45:15.540944+00:00",
+        "request_id": "chatcmpl-52f7250c8075",
+        "response_received_at": "2026-11-25T01:45:51.130246+00:00",
         "levels": [
           "0",
           "1",
@@ -2222,8 +2196,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8ec955577151",
-        "generated_at": "2026-11-16T04:45:48.678625+00:00",
+        "request_id": "chatcmpl-52f7250c8075",
+        "response_received_at": "2026-11-25T01:45:51.130246+00:00",
         "levels": [
           "0",
           "1",
@@ -2261,8 +2235,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8ec955577151",
-        "generated_at": "2026-11-16T04:45:48.678766+00:00",
+        "request_id": "chatcmpl-52f7250c8075",
+        "response_received_at": "2026-11-25T01:45:51.130246+00:00",
         "levels": [
           "0",
           "1",
@@ -2291,8 +2265,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8ec955577151",
-        "generated_at": "2026-11-16T04:45:48.678895+00:00",
+        "request_id": "chatcmpl-52f7250c8075",
+        "response_received_at": "2026-11-25T01:45:51.130246+00:00",
         "levels": [
           "0",
           "1",
@@ -2330,8 +2304,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8ec955577151",
-        "generated_at": "2026-11-16T04:45:48.679036+00:00",
+        "request_id": "chatcmpl-52f7250c8075",
+        "response_received_at": "2026-11-25T01:45:51.130246+00:00",
         "levels": [
           "0",
           "1",
@@ -2360,8 +2334,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-7afc0ee0fb22",
-        "generated_at": "2026-11-16T04:46:26.671638+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2390,8 +2364,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-7afc0ee0fb22",
-        "generated_at": "2026-11-16T04:46:26.671760+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2429,8 +2403,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-7afc0ee0fb22",
-        "generated_at": "2026-11-16T04:46:26.671869+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2468,8 +2442,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-7afc0ee0fb22",
-        "generated_at": "2026-11-16T04:46:26.672008+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2499,8 +2473,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-7afc0ee0fb22",
-        "generated_at": "2026-11-16T04:46:26.672115+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2538,8 +2512,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.641772+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2577,8 +2551,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.643684+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2607,8 +2581,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.643822+00:00",
+        "request_id": "chatcmpl-20324ca340fc",
+        "response_received_at": "2026-11-25T01:46:01.696075+00:00",
         "levels": [
           "0",
           "1",
@@ -2638,8 +2612,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.643932+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2669,8 +2643,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.644065+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2700,8 +2674,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-a1f64ec3283c",
-        "generated_at": "2026-11-16T04:47:02.644174+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2730,8 +2704,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-28700dfbe8ae",
-        "generated_at": "2026-11-16T04:47:37.791506+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2760,8 +2734,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-28700dfbe8ae",
-        "generated_at": "2026-11-16T04:47:37.791948+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2791,8 +2765,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-28700dfbe8ae",
-        "generated_at": "2026-11-16T04:47:37.792083+00:00",
+        "request_id": "chatcmpl-12efdbc542de",
+        "response_received_at": "2026-11-25T01:46:56.643086+00:00",
         "levels": [
           "0",
           "1",
@@ -2821,7 +2795,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-dd3a43f774b7",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -2829,33 +2804,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-dd3a43f774b7",
-            "response_received_at": "2026-11-24T01:35:46.223526+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-1725a71b53dc",
-            "response_received_at": "2026-11-24T01:34:35.004650+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          }
-        }
+        ]
       },
       "original_base_record_evidence": {
         "exact_repositories": [
@@ -2876,8 +2825,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-28700dfbe8ae",
-        "generated_at": "2026-11-16T04:47:37.792199+00:00",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -2906,8 +2855,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-14ff057402bf",
-        "generated_at": "2026-11-16T04:48:18.002970+00:00",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -2936,8 +2885,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-14ff057402bf",
-        "generated_at": "2026-11-16T04:48:18.003132+00:00",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -2967,8 +2916,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-14ff057402bf",
-        "generated_at": "2026-11-16T04:48:18.003247+00:00",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -2998,8 +2947,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-14ff057402bf",
-        "generated_at": "2026-11-16T04:48:18.003354+00:00",
+        "request_id": "chatcmpl-9675ef8bfd89",
+        "response_received_at": "2026-11-25T01:46:39.846919+00:00",
         "levels": [
           "0",
           "1",
@@ -3028,8 +2977,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6496c5a4e5a7",
-        "generated_at": "2026-11-16T04:49:02.745800+00:00",
+        "request_id": "chatcmpl-9113261f9d5a",
+        "response_received_at": "2026-11-25T01:47:30.341112+00:00",
         "levels": [
           "0",
           "1",
@@ -3058,8 +3007,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6496c5a4e5a7",
-        "generated_at": "2026-11-16T04:49:02.745940+00:00",
+        "request_id": "chatcmpl-9113261f9d5a",
+        "response_received_at": "2026-11-25T01:47:30.341112+00:00",
         "levels": [
           "0",
           "1",
@@ -3088,8 +3037,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6496c5a4e5a7",
-        "generated_at": "2026-11-16T04:49:02.746083+00:00",
+        "request_id": "chatcmpl-9113261f9d5a",
+        "response_received_at": "2026-11-25T01:47:30.341112+00:00",
         "levels": [
           "0",
           "1",
@@ -3119,8 +3068,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6496c5a4e5a7",
-        "generated_at": "2026-11-16T04:49:02.746199+00:00",
+        "request_id": "chatcmpl-9113261f9d5a",
+        "response_received_at": "2026-11-25T01:47:30.341112+00:00",
         "levels": [
           "0",
           "1",
@@ -3149,8 +3098,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6496c5a4e5a7",
-        "generated_at": "2026-11-16T04:49:02.746329+00:00",
+        "request_id": "chatcmpl-9113261f9d5a",
+        "response_received_at": "2026-11-25T01:47:30.341112+00:00",
         "levels": [
           "0",
           "1",
@@ -3179,8 +3128,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-861a05353392",
-        "generated_at": "2026-11-16T04:49:52.966881+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3218,8 +3167,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e7b0d823cccf",
-        "generated_at": "2026-11-16T04:30:19.770214+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3248,8 +3197,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-861a05353392",
-        "generated_at": "2026-11-16T04:49:52.967019+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3278,8 +3227,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-861a05353392",
-        "generated_at": "2026-11-16T04:49:52.967138+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3317,8 +3266,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-861a05353392",
-        "generated_at": "2026-11-16T04:49:52.967259+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3347,8 +3296,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-861a05353392",
-        "generated_at": "2026-11-16T04:49:52.967370+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3377,8 +3326,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-21dcb1927a2c",
-        "generated_at": "2026-11-16T04:50:37.002871+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3416,8 +3365,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-21dcb1927a2c",
-        "generated_at": "2026-11-16T04:50:37.003045+00:00",
+        "request_id": "chatcmpl-7fb547f45f88",
+        "response_received_at": "2026-11-25T01:47:28.792383+00:00",
         "levels": [
           "0",
           "1",
@@ -3446,8 +3395,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-21dcb1927a2c",
-        "generated_at": "2026-11-16T04:50:37.003171+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3476,8 +3425,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-21dcb1927a2c",
-        "generated_at": "2026-11-16T04:50:37.003300+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3506,8 +3455,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-21dcb1927a2c",
-        "generated_at": "2026-11-16T04:50:37.003519+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3537,8 +3486,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-61e52e244afc",
-        "generated_at": "2026-11-16T04:51:17.289724+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3576,8 +3525,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-61e52e244afc",
-        "generated_at": "2026-11-16T04:51:17.289864+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3606,7 +3555,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-424560b0e366",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3614,33 +3564,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          }
-        }
+        ]
       },
       "base_analysis_override": {
         "classification": "reviewed_bundled_analysis_reuse",
@@ -3670,8 +3594,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-61e52e244afc",
-        "generated_at": "2026-11-16T04:51:17.290115+00:00",
+        "request_id": "chatcmpl-e9416dc6150a",
+        "response_received_at": "2026-11-25T01:48:09.894496+00:00",
         "levels": [
           "0",
           "1",
@@ -3709,8 +3633,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-61e52e244afc",
-        "generated_at": "2026-11-16T04:51:17.290276+00:00",
+        "request_id": "chatcmpl-f11733187f17",
+        "response_received_at": "2026-11-25T01:48:08.424552+00:00",
         "levels": [
           "0",
           "1",
@@ -3739,7 +3663,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-424560b0e366",
+        "request_id": "chatcmpl-f11733187f17",
+        "response_received_at": "2026-11-25T01:48:08.424552+00:00",
         "levels": [
           "0",
           "1",
@@ -3747,33 +3672,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          }
-        }
+        ]
       },
       "base_analysis_override": {
         "classification": "reviewed_bundled_analysis_reuse",
@@ -3803,8 +3702,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-1f362e3aa8e5",
-        "generated_at": "2026-11-16T05:02:07.237070+00:00",
+        "request_id": "chatcmpl-475de111d670",
+        "response_received_at": "2026-11-25T01:48:41.426502+00:00",
         "levels": [
           "0",
           "1",
@@ -3851,8 +3750,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-1f362e3aa8e5",
-        "generated_at": "2026-11-16T05:02:07.237184+00:00",
+        "request_id": "chatcmpl-475de111d670",
+        "response_received_at": "2026-11-25T01:48:41.426502+00:00",
         "levels": [
           "0",
           "1",
@@ -3881,8 +3780,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e72b35ec5fef",
-        "generated_at": "2026-11-16T05:02:45.197753+00:00",
+        "request_id": "chatcmpl-475de111d670",
+        "response_received_at": "2026-11-25T01:48:41.426502+00:00",
         "levels": [
           "0",
           "1",
@@ -3911,8 +3810,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e72b35ec5fef",
-        "generated_at": "2026-11-16T05:02:45.198109+00:00",
+        "request_id": "chatcmpl-475de111d670",
+        "response_received_at": "2026-11-25T01:48:41.426502+00:00",
         "levels": [
           "0",
           "1",
@@ -3950,8 +3849,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e72b35ec5fef",
-        "generated_at": "2026-11-16T05:02:45.198269+00:00",
+        "request_id": "chatcmpl-475de111d670",
+        "response_received_at": "2026-11-25T01:48:41.426502+00:00",
         "levels": [
           "0",
           "1",
@@ -3980,8 +3879,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e72b35ec5fef",
-        "generated_at": "2026-11-16T05:02:45.198403+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4011,8 +3910,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b6bb64c2ed1d",
-        "generated_at": "2026-11-16T05:13:43.278028+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4050,8 +3949,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-06f25ea59c64",
-        "generated_at": "2026-11-16T05:03:26.242517+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4080,8 +3979,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-06f25ea59c64",
-        "generated_at": "2026-11-16T05:03:26.242661+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4119,7 +4018,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-424560b0e366",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4127,33 +4027,7 @@
           "3",
           "4",
           "5"
-        ],
-        "requests_by_level": {
-          "0": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "1": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "2": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "3": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "4": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          },
-          "5": {
-            "request_id": "chatcmpl-424560b0e366",
-            "response_received_at": "2026-11-24T01:29:35.738161+00:00"
-          }
-        }
+        ]
       },
       "base_analysis_override": {
         "classification": "reviewed_bundled_analysis_reuse",
@@ -4200,8 +4074,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-06f25ea59c64",
-        "generated_at": "2026-11-16T05:03:26.242916+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4239,8 +4113,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-06f25ea59c64",
-        "generated_at": "2026-11-16T05:03:26.243056+00:00",
+        "request_id": "chatcmpl-5f3d55f954e7",
+        "response_received_at": "2026-11-25T01:49:36.533528+00:00",
         "levels": [
           "0",
           "1",
@@ -4269,8 +4143,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-84dac7d3b9c7",
-        "generated_at": "2026-11-16T05:04:02.040664+00:00",
+        "request_id": "chatcmpl-7d9de38c55e8",
+        "response_received_at": "2026-11-25T01:49:37.278065+00:00",
         "levels": [
           "0",
           "1",
@@ -4300,8 +4174,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-84dac7d3b9c7",
-        "generated_at": "2026-11-16T05:04:02.041170+00:00",
+        "request_id": "chatcmpl-7d9de38c55e8",
+        "response_received_at": "2026-11-25T01:49:37.278065+00:00",
         "levels": [
           "0",
           "1",
@@ -4330,8 +4204,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-84dac7d3b9c7",
-        "generated_at": "2026-11-16T05:04:02.041285+00:00",
+        "request_id": "chatcmpl-7d9de38c55e8",
+        "response_received_at": "2026-11-25T01:49:37.278065+00:00",
         "levels": [
           "0",
           "1",
@@ -4360,8 +4234,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8d54c3ea5615",
-        "generated_at": "2026-11-16T05:04:42.291342+00:00",
+        "request_id": "chatcmpl-7d9de38c55e8",
+        "response_received_at": "2026-11-25T01:49:37.278065+00:00",
         "levels": [
           "0",
           "1",
@@ -4390,8 +4264,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8d54c3ea5615",
-        "generated_at": "2026-11-16T05:04:42.291449+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4420,8 +4294,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8d54c3ea5615",
-        "generated_at": "2026-11-16T05:04:42.291552+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4450,8 +4324,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8d54c3ea5615",
-        "generated_at": "2026-11-16T05:04:42.291647+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4480,8 +4354,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b3b28bd86f6e",
-        "generated_at": "2026-11-16T05:05:23.732597+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4510,8 +4384,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b3b28bd86f6e",
-        "generated_at": "2026-11-16T05:05:23.732749+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4540,8 +4414,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b3b28bd86f6e",
-        "generated_at": "2026-11-16T05:05:23.732886+00:00",
+        "request_id": "chatcmpl-41f13ddc6169",
+        "response_received_at": "2026-11-25T01:50:24.321666+00:00",
         "levels": [
           "0",
           "1",
@@ -4570,8 +4444,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b3b28bd86f6e",
-        "generated_at": "2026-11-16T05:05:23.733137+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4609,8 +4483,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-b3b28bd86f6e",
-        "generated_at": "2026-11-16T05:05:23.733259+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4639,8 +4513,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6d4276c82b1a",
-        "generated_at": "2026-11-16T05:06:01.455648+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4669,8 +4543,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6d4276c82b1a",
-        "generated_at": "2026-11-16T05:06:01.455778+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4699,8 +4573,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6d4276c82b1a",
-        "generated_at": "2026-11-16T05:06:01.455881+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4729,8 +4603,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6d4276c82b1a",
-        "generated_at": "2026-11-16T05:06:01.455999+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4768,8 +4642,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-6d4276c82b1a",
-        "generated_at": "2026-11-16T05:06:01.456100+00:00",
+        "request_id": "chatcmpl-0ca5e18bdc2c",
+        "response_received_at": "2026-11-25T01:50:15.877831+00:00",
         "levels": [
           "0",
           "1",
@@ -4798,8 +4672,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.115398+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4829,8 +4703,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.115546+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4860,8 +4734,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.115676+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4899,8 +4773,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.115790+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4929,8 +4803,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.115908+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4968,8 +4842,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-c7b53a132666",
-        "generated_at": "2026-11-16T05:06:36.116050+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -4998,8 +4872,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e787260f529f",
-        "generated_at": "2026-11-16T05:07:16.301496+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -5037,8 +4911,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e787260f529f",
-        "generated_at": "2026-11-16T05:07:16.301633+00:00",
+        "request_id": "chatcmpl-442694425348",
+        "response_received_at": "2026-11-25T01:50:56.486474+00:00",
         "levels": [
           "0",
           "1",
@@ -5076,8 +4950,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e787260f529f",
-        "generated_at": "2026-11-16T05:07:16.301742+00:00",
+        "request_id": "chatcmpl-7dc34cfef3dc",
+        "response_received_at": "2026-11-25T01:50:56.082461+00:00",
         "levels": [
           "0",
           "1",
@@ -5115,8 +4989,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e787260f529f",
-        "generated_at": "2026-11-16T05:07:16.301851+00:00",
+        "request_id": "chatcmpl-7dc34cfef3dc",
+        "response_received_at": "2026-11-25T01:50:56.082461+00:00",
         "levels": [
           "0",
           "1",
@@ -5154,8 +5028,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-e787260f529f",
-        "generated_at": "2026-11-16T05:07:16.302074+00:00",
+        "request_id": "chatcmpl-7dc34cfef3dc",
+        "response_received_at": "2026-11-25T01:50:56.082461+00:00",
         "levels": [
           "0",
           "1",
@@ -5185,8 +5059,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-433681c44e77",
-        "generated_at": "2026-11-16T05:07:53.892183+00:00",
+        "request_id": "chatcmpl-7dc34cfef3dc",
+        "response_received_at": "2026-11-25T01:50:56.082461+00:00",
         "levels": [
           "0",
           "1",
@@ -5215,8 +5089,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-433681c44e77",
-        "generated_at": "2026-11-16T05:07:53.892321+00:00",
+        "request_id": "chatcmpl-7dc34cfef3dc",
+        "response_received_at": "2026-11-25T01:50:56.082461+00:00",
         "levels": [
           "0",
           "1",
@@ -5245,8 +5119,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-433681c44e77",
-        "generated_at": "2026-11-16T05:07:53.892419+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5275,8 +5149,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-1349e8ab6837",
-        "generated_at": "2026-11-16T05:20:39.712881+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5306,8 +5180,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963288+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5345,8 +5219,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963426+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5384,8 +5258,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963534+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5414,8 +5288,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963637+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5444,8 +5318,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963735+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5475,8 +5349,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8392bd84c868",
-        "generated_at": "2026-11-16T05:08:35.963836+00:00",
+        "request_id": "chatcmpl-ad3151988ba8",
+        "response_received_at": "2026-11-25T01:51:28.819363+00:00",
         "levels": [
           "0",
           "1",
@@ -5505,8 +5379,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8514c4d63051",
-        "generated_at": "2026-11-16T05:08:57.130308+00:00",
+        "request_id": "chatcmpl-96befc9b1af9",
+        "response_received_at": "2026-11-25T01:51:11.670458+00:00",
         "levels": [
           "0",
           "1",
@@ -5535,8 +5409,8 @@
         "provider": "gemini-web2api",
         "model": "gemini-4-hydrogen",
         "strict_model": true,
-        "request_id": "chatcmpl-8514c4d63051",
-        "generated_at": "2026-11-16T05:08:57.130509+00:00",
+        "request_id": "chatcmpl-96befc9b1af9",
+        "response_received_at": "2026-11-25T01:51:11.670458+00:00",
         "levels": [
           "0",
           "1",

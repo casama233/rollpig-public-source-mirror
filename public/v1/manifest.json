@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "client": "astrbot_plugin_rollpig_plus",
-  "resource_version": "2026.11.24.1",
-  "generated_at": "2026-11-24T05:34:46+00:00",
+  "resource_version": "2026.11.25.1",
+  "generated_at": "2026-11-25T02:07:18+00:00",
   "pig_count": 164,
-  "package_size": 17442249,
+  "package_size": 17458773,
   "pig_json": {
     "path": "pig.json",
     "size": 53492,
-    "sha256": "8480560c58a4950544f281b05c80ce0515ed89748f2383b3387428808f75b280"
+    "sha256": "7e98a1dec4b516efaaf21a3429b5dc6f16e8801ca5e5a8957a88ee8c2ed50659"
   },
   "images": [
     {
@@ -998,15 +998,15 @@
   ],
   "ex_variants": {
     "path": "pig_ex_variants.json",
-    "size": 241750,
-    "sha256": "44cbb639a49191b043a3ad1af117369b32ceb05c2935b4cbfb1f006089774190"
+    "size": 263129,
+    "sha256": "85ddc8457a4bf52911d0b8c53000df9cdb104ce2996c88947001d760ab96db40"
   },
   "variant_images": [],
   "ex_variant_pig_count": 164,
-  "freeze_fingerprint": "4a98605a69e9482ed60b616ed968680f6b19bd5d4396c4f4b128b5253b2a4c31",
-  "source_fingerprint": "e454115156ee39a42dcd0a33298ccce8673f93625c378aaaf2c0f809c9aec94a",
-  "public_only_copy_digest": "e7a2ad44151a66a32532a85671858e4f72f5c7bcfa8ea73df963693743b282c8",
-  "bundled_copy_digest": "a92d4415e82718bf13716451c88713092523007c6091d61ab261ab2cf89f8d43",
+  "freeze_fingerprint": "f498b8c87d025b1a363e4ade6d636c5f8079ed841a46d752289df0fa79fb8d59",
+  "source_fingerprint": "f02cb2299084fc6f5d73b99763d62531bf8930d12e63926fd9347655784fb00a",
+  "public_only_copy_digest": "bb98e394a2911817304e3456b839e844a0d5dcb722d0c3de63a017088980bad0",
+  "bundled_copy_digest": "7f80bddeed80b0a573f0a7e97da7f8170976457214370cc45f6217725852c7e6",
   "overlap_plan_sha256": "4cd1cca619d41b715d744827c3785da59ad2ef3c79a33bf4608f1c3671e81a36",
   "profile": "complete-handwritten-ex",
   "extended_resources": true,
@@ -1016,23 +1016,23 @@
   "roast_copy_line_count": 80,
   "notice": {
     "path": "NOTICE.md",
-    "size": 4929,
-    "sha256": "ea4c53820962a7000f8dd01c84d0a57456c49931281efeb7127c2d714f68c5f0"
+    "size": 5159,
+    "sha256": "d4db834ff1727427633310dfdad6a517303ba5de6c2d0f0f8d413b37a7e579b5"
   },
   "provenance": {
     "path": "PROVENANCE.json",
-    "size": 185992,
-    "sha256": "06c00c8c0b81e152833a034b01d383708582076d03e3d99527cd285dc00ba2ff"
+    "size": 182856,
+    "sha256": "4ada346106827eb802a3117fcbcec700ee4269e92316b694fde0c75cd188730f"
   },
   "ex_authoring": {
     "path": "EX-AUTHORING.json",
-    "size": 61124,
-    "sha256": "142c12d732bb8ccc1fb8d72d9666457f15f507df7282f299d9ed0f4036711534"
+    "size": 58242,
+    "sha256": "b5b16995de7b92e6426a915b071e98998a552a2bc4339397cad3c3f6ae547b85"
   },
   "roast_copy": {
     "path": "roast_copy.json",
-    "size": 8237,
-    "sha256": "1ad747af8723618c115ca05e03b9f57584a5990a7db681971839275b05557bcb"
+    "size": 9170,
+    "sha256": "14f1bbdf29d97e471428ed8f7efa49450bb2fbb2a3a11d9e96f8cfc66f68a904"
   },
   "licenses": [
     {
